@@ -84,7 +84,7 @@ Yes you can. As many as you like.
 
 = My Tabs are too high or low =
 
-This is due to differences in the metrics of different fonts and css that is inherited from your theme. You sould be able to overide this with a little additional css in your child theme stylesheet or addded via a custom css plugin.
+This can be due to differences in the metrics of different fonts and the css that is inherited from your theme. You sould be able to overide this with a little additional css in your child theme stylesheet or addded via a custom css plugin.
 
 You can increase specificity to ensure that additional css rules are applied.
 
