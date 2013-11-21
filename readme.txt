@@ -11,7 +11,7 @@ Tabby enables you to create responsive tabs inside your posts, pages or custom p
 
 == Description ==
 
-* Adds a Horizontal Tabbed interface which changes to Accordion when the viewport width is 767px or less
+* Adds a set of horizontal tabs which changes to an accordion on narrow viewports
 * Tabs and accordion are created with jQuery
 * Supports multiple sets of tabs on same page
 * Uses Semantic header and Content markup
