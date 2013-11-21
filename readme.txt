@@ -88,16 +88,26 @@ This is due to differences in the metrics of different fonts and css that is inh
 
 You can increase specificity to ensure that additional css rules are applied.
 
-The first value to look at tweaking in this way is the value for margin-bottom for the .responsive-tabs__list class
+The value to look at here are
+
+1. **margin-bottom** for the **.responsive-tabs__list class**
+1. **padding-bottom** for the **responsive-tabs__list__item class**
 
 eg:
 `
 .responsive-tabs-wrapper .responsive-tabs .responsive-tabs__list {
-	margin-bottom: 11px;
+	margin-bottom: 5px;
+
+
+}
+
+.responsive-tabs-wrapper .responsive-tabs__list__item {
+	padding-bottom: 3px;
+
 }
 `
 
-You can probably get around this by 
+Changing these values individually will show you how they interact.
 
 = Can you create a customised stylesheet for me to fit in with the colours of my website? =
 
@@ -121,8 +131,8 @@ The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 
 
 == Screenshots ==
 
-1. On a desktop browser the content is displayed within a tabbed interface.
-2. When the browser width is below the size set in the media query, the tabs are replaced by an accordion interface.
+1. On a desktop browser the content is displayed within tabs.
+1. When the browser width is below the size set in the media query, the tabs are replaced by an accordion.
 
 == Changelog ==
 
