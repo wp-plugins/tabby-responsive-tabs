@@ -82,6 +82,23 @@ You can prevent the built-in styles from loading by adding the following line to
 
 Yes you can. As many as you like.
 
+= My Tabs are too high or low =
+
+This is due to differences in the metrics of different fonts and css that is inherited from your theme. You sould be able to overide this with a little additional css in your child theme stylesheet or addded via a custom css plugin.
+
+You can increase specificity to ensure that additional css rules are applied.
+
+The first value to look at tweaking in this way is the value for margin-bottom for the .responsive-tabs__list class
+
+eg:
+`
+.responsive-tabs-wrapper .responsive-tabs .responsive-tabs__list {
+	margin-bottom: 11px;
+}
+`
+
+You can probably get around this by 
+
 = Can you create a customised stylesheet for me to fit in with the colours of my website? =
 
 I'd love to, but my time is limited and this is beyond of the scope of the free support that I can give on the forums, I can offer this as a paid service. Please send me details of your requirements via the [cubecolour contact form](http://cubecolour.co.uk/contact/ "cubecolour contact form").
