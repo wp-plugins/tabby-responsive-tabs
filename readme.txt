@@ -130,7 +130,7 @@ If the isn't working for you, please read the documentation to check whether you
 
 == Other Notes ==
 
-The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 "GNU GPLv2"), however as the original responsive tabs script was hosted at codepen as a public pen, [hosted at codepen as a public pen](http://blog.codepen.io/legal/licensing/ "hosted at codepen as a public pen")the GPL compatible [MIT license](http://opensource.org/licenses/MIT "MIT license") applies to that component.
+The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 "GNU GPLv2"), however as the original responsive tabs script was [hosted at codepen as a public pen](http://blog.codepen.io/legal/licensing/ "hosted at codepen as a public pen"), the GPL compatible [MIT license](http://opensource.org/licenses/MIT "MIT license") applies to that component.
 
 == Screenshots ==
 
