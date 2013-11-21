@@ -78,11 +78,15 @@ You can prevent the built-in styles from loading by adding the following line to
 
 `<?php remove_action('wp_print_styles', 'cc_tabby_css', 30); ?>`
 
+= Can I change the responsive breakpoint from the default 767px? =
+
+Yes, you'll find where that is set in the css. Refer to the answer above about using custom css.
+
 = Can I display multiple tab groups on a single page? =
 
 Yes you can. As many as you like.
 
-= My Tabs are too high or low =
+= My Tabs are displaying too high or low & look odd =
 
 This can be due to differences in the metrics of different fonts and the css that is inherited from your theme. You sould be able to overide this with a little additional css in your child theme stylesheet or addded via a custom css plugin.
 
@@ -123,7 +127,7 @@ You can donate via [my donation page](http://cubecolour.co.uk/wp/ "cubecolour do
 
 If you find the plugin useful I would also appreciate a review on the [plugin review page](http://wordpress.org/support/view/plugin-reviews/tabby-reponsive-tabs/ "Tabby Responsive Tabs plugin reviews")
 
-If it isn't working for you, please read the documentation carefully. If it doesn't address your issue, post a question on the [plugin support forum](http://wordpress.org/support/plugin/tabby-responsive-tabs" Tabby Responsive Tabs plugin support forum") so we can at least have an opportunity to try to get it working before you leave a review.
+If the isn't working for you, please read the documentation to check whether your issue is answered already. If your issue is not addressed here, please post a question on the [plugin support forum](http://wordpress.org/support/plugin/tabby-responsive-tabs/ "Tabby Responsive Tabs plugin support forum") so we have an opportunity to try to get it working before you leave a review.
 
 == Other Notes ==
 
