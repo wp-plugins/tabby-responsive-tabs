@@ -34,14 +34,13 @@ After the content of the last tab in a tabgroup use a `[tabbyending]` shortcode
 = Example =
 `
 [tabby title="First Tab"]
-Tabby ipsum dolor sit amet, kitty sunbathe dolor mauris a tristique, feed me nullam stuck in a tree ac faucibus bibendum libero. Jump on the table accumsan et vestibulum fluffy fur pussy libero.
+Tabby ipsum dolor sit amet, kitty sunbathe dolor, feed me.
 
 [tabby title="Second Tab"]
-Lay down in your way catnip stuck in a tree iaculis, sunbathe orci turpis kittens scratched dolor quis nunc. Vestibulum cras nec attack sniff eat, tempus enim ut adipiscing scratched orci turpis give me fish.
+Lay down in your way catnip stuck in a tree, sunbathe kittens.
 
 [tabby title="Third Tab"]
-Jump sleep in the sink vestibulum climb the curtains attack, sleep on your face sniff attack your ankles etiam give me fish judging you. Sagittis run zzz jump elit nibh, sunbathe enim rip the couch vulputate accumsan.
-
+sleep in the sink climb the curtains attack, give me fish.
 [tabbyending]
 `
 You can see the tabs on the [demo page](http://cubecolour.co.uk/tabby-responsive-tabs/ "Tabby Responsive Tabs demo").
