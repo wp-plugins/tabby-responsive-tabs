@@ -1,0 +1,128 @@
+/* === CORE CSS Do not change this section === */
+
+.responsive-tabs__heading { display: none; }
+.responsive-tabs__list__item { display: inline; cursor:pointer; }
+
+@media (max-width: 767px) {
+	.responsive-tabs__list { display: none; }
+	.responsive-tabs__heading { display: block; cursor: pointer; }
+	.responsive-tabs__panel--closed-accordion-only { display: none; }
+}
+
+@media (min-width: 768px) {
+	.responsive-tabs__panel--closed-accordion-only { display: block; }
+}
+
+/* === Basic design === */
+
+.responsive-tabs-wrapper { 
+	clear: both;
+	margin-bottom: 20px;	
+	zoom: 1; 
+}
+.responsive-tabs-wrapper:before,
+.responsive-tabs-wrapper:after {
+    content: "";
+    display: table;
+} 
+.responsive-tabs-wrapper:after {
+    clear: both;
+}
+
+.responsive-tabs__heading:focus,
+.responsive-tabs__list__item:focus {
+	outline: 1px solid transparent;
+}
+
+.responsive-tabs__heading--active:focus,
+.responsive-tabs__list__item--active:focus {
+	outline: none;
+}
+
+.responsive-tabs .responsive-tabs__list {
+	font-size: 18px;
+	margin: 20px 0 5px 0;
+	padding-bottom:0;
+	line-height: 1;
+}
+
+.responsive-tabs__list__item {
+	padding: 10px 20px 10px;
+	margin: 0 14px 0 0;
+	border: 1px solid transparent;
+}
+	
+.responsive-tabs__list__item:hover {
+	color: #222;
+}
+
+.responsive-tabs__list__item--active, 
+.responsive-tabs__list__item--active:hover {
+	color: #606060;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-bottom-color: #fff;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.responsive-tabs__panel {	
+	background: #fff;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+	padding: 20px 20px 0;
+}
+
+/* --- ACCORDION  --- */
+
+@media (max-width: 767px) {
+
+	.responsive-tabs-wrapper {
+		border-top: 1px solid #ddd;
+		}
+		
+	.responsive-tabs__heading {
+		background: #fff;
+		color: #909090;
+		padding: 10px 0 10px 20px;
+		border: 1px solid #ddd;
+		border-top: none;
+		font-size: 18px;
+		margin: 0;
+		position: relative;
+	}
+	
+	.responsive-tabs__heading:after {
+		content:"";
+		display: block;
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		width: 0; 
+		height: 0; 
+		border-left: 6px solid transparent;
+		border-right: 6px solid transparent;
+		border-top: 6px solid #444;
+	}
+
+	.responsive-tabs__heading:hover {
+		color: #606060;
+	}
+		
+	.responsive-tabs__heading--active,
+	.responsive-tabs__heading--active:hover {
+		background: #e3e3e3;
+		color: #606060;
+	}
+
+	.responsive-tabs__heading--active:after {
+		border-bottom: 6px solid #404040;
+		border-top: 0;
+		top: 18px;
+	}
+
+	.responsive-tabs__panel {
+		border-top: none;
+		margin: 0;
+	}
+}
