@@ -1,7 +1,7 @@
 === Tabby Responsive Tabs ===
 Contributors: numeeja
 Donate link: http://cubecolour.co.uk/wp
-Tags: tabs, responsive,
+Tags: tabs, responsive, shortcode, tab
 Requires at least: 3.7
 Tested up to: 3.7.1
 Stable tag: 1.0.1
@@ -26,10 +26,9 @@ There are two shortcodes which should both be used `[tabby]` and `[tabbyending]`
 
 replace tabname with the name of your tab.
 
-Add the content of the tab after the `[tabby]` shortcode.
+Add the tab content after that.
 
-`[tabbyending]`
-After the content of the last tab in a tabgroup use a `[tabbyending]` shortcode
+Add a `[tabbyending]` shortcode after the content of the last tab in a tabgroup.
 		
 = Example =
 `
