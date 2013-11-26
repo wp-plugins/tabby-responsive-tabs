@@ -75,7 +75,7 @@ function cc_tabby_meta_links( $links, $file ) {
 //	If you want to use custom styles, copy the content of the tabby.css to your child theme
 //	and stop the default styles from loading by this by adding the following line to the theme's functions.php:
 //
-//	delete_action('wp_print_styles', 'cc_tabby_css', 30);
+//	remove_action('wp_print_styles', 'cc_tabby_css', 30);
 // ==============================================
 
 add_action('wp_print_styles', 'cc_tabby_css', 30);
