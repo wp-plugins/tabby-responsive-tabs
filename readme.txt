@@ -142,7 +142,7 @@ The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 
 
 == Changelog ==
 
-= 1.0.1 =
+= 1.0.2 =
 
 * enqueue plugin js only when needed
 * css for improved specificity
@@ -157,7 +157,7 @@ The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 
 
 == Upgrade Notice ==
 
-= 1.0.1 =
+= 1.0.2 =
 
 * better efficiency - enqueue plugin js only when needed
 * improved theme compatibility with default css
