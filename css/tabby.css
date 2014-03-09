@@ -33,16 +33,17 @@
 
 .responsive-tabs .responsive-tabs__list {
 	font-size: 18px;
-	margin: 20px 0 11px 0;
+	line-height: 18px;
+	margin: 20px 0 10px 0;
 	padding-bottom:0;
-	line-height: 1;
 }
 
 .responsive-tabs .responsive-tabs__list__item {
-	padding: 10px 20px 10px;
-	margin: 0 14px 0 0;
 	border: 1px solid transparent;
 	border-bottom: none;
+	line-height: 1;
+	margin: 0 14px 0 0;
+	padding: 10px 20px;
 }
 	
 .responsive-tabs .responsive-tabs__list__item:hover {
@@ -51,11 +52,11 @@
 
 .responsive-tabs .responsive-tabs__list__item--active, 
 .responsive-tabs .responsive-tabs__list__item--active:hover {
-	color: #606060;
 	background: #fff;
 	border-color: #ddd;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
+	color: #606060;
 }
 
 .responsive-tabs .responsive-tabs__panel {	
@@ -65,16 +66,28 @@
 	padding: 20px 20px 0;
 }
 
-/* --- ACCORDION  --- */
-
 @media (min-width: 768px) {
-	.responsive-tabs .responsive-tabs__panel--closed-accordion-only { display: block; }
+
+	.responsive-tabs .responsive-tabs__panel--closed-accordion-only {
+		display: block;
+	}
 }
 
+/* --- ACCORDION  --- */
+
 @media (max-width: 767px) {
-	.responsive-tabs .responsive-tabs__list { display: none; }
-	.responsive-tabs .responsive-tabs__heading { display: block; cursor: pointer; }
-	.responsive-tabs .responsive-tabs__panel--closed-accordion-only { display: none; }
+
+	.responsive-tabs .responsive-tabs__list {
+		display: none;
+	}
+	
+	.responsive-tabs .responsive-tabs__heading {
+		display: block; cursor: pointer;
+	}
+	
+	.responsive-tabs .responsive-tabs__panel--closed-accordion-only {
+		display: none;
+	}
 }
 
 @media (max-width: 767px) {
@@ -85,26 +98,27 @@
 		
 	.responsive-tabs .responsive-tabs__heading {
 		background: #fff;
-		color: #909090;
-		padding: 10px 0 10px 20px;
 		border: 1px solid #ddd;
 		border-top: none;
+		color: #909090;
 		font-size: 18px;
+		font-weight: normal;
+		padding: 10px 0 10px 20px;
 		margin: 0;
 		position: relative;
 	}
 	
 	.responsive-tabs .responsive-tabs__heading:after {
+		border-left: 6px solid transparent;
+		border-right: 6px solid transparent;
+		border-top: 6px solid #444;
 		content:"";
 		display: block;
 		position: absolute;
 		right: 20px;
 		top: 20px;
-		width: 0; 
 		height: 0; 
-		border-left: 6px solid transparent;
-		border-right: 6px solid transparent;
-		border-top: 6px solid #444;
+		width: 0; 
 	}
 
 	.responsive-tabs .responsive-tabs__heading:hover {
