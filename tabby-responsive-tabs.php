@@ -83,19 +83,19 @@ function cc_tabby_meta_links( $links, $file ) {
 add_action('wp_print_styles', 'cc_tabby_css', 30);
 
 function cc_tabby_css() {
-	wp_enqueue_style('tabby.css', plugin_dir_url(__FILE__).'css/' . 'tabby.css' , false, '1.0.1');	
+	wp_enqueue_style('tabby.css', plugin_dir_url(__FILE__).'css/' . 'tabby.css' , false, '1.0.2');	
 }
 
 // ==============================================
 // Register & enqueue the script
 // ==============================================
-
+/*
 add_action('wp_enqueue_scripts', 'cc_tabby_js');
 function cc_tabby_js() {
 	wp_register_script( 'tabby', plugins_url() . "/" . basename(dirname(__FILE__)) . '/js/tabby.js', array('jquery'), '1.0.1', true );
 	wp_enqueue_script( 'tabby' );
 }
-
+*/
 // ==============================================
 // Trigger the script if it has not already been triggered on the page
 // ==============================================
@@ -123,7 +123,7 @@ function cc_shortcode_tabby( $atts, $content = null ) {
 global $reset_firsttab_flag;
 static $firsttab = TRUE;
 
-if ($GLOBALS["reset_firsttab_flag"] == TRUE) {
+if ($GLOBALS["reset_firsttab_flag"] === TRUE) {
 	$firsttab = TRUE;
 	$GLOBALS["reset_firsttab_flag"] = FALSE;
 }
@@ -154,7 +154,9 @@ add_shortcode('tabby', 'cc_shortcode_tabby');
 // ==============================================
 function cc_shortcode_tabbyending( $atts, $content = null ) {
 
-	add_action('wp_footer', 'cc_tabbytrigger', 5);
+	wp_enqueue_script('tabby', plugins_url('js/tabby.js', __FILE__), array('jquery'), '1.0.2', true);
+
+	add_action('wp_footer', 'cc_tabbytrigger', 20);
 
 	$GLOBALS["reset_firsttab_flag"] = TRUE;
 

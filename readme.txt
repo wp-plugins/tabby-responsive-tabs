@@ -3,8 +3,8 @@ Contributors: numeeja
 Donate link: http://cubecolour.co.uk/wp
 Tags: tabs, responsive, shortcode, tab
 Requires at least: 3.7
-Tested up to: 3.8
-Stable tag: 1.0.1
+Tested up to: 3.8.1
+Stable tag: 1.0.2
 License: GPLv2 / MIT
 
 Tabby enables you to create responsive tabs inside your posts, pages or custom post types by adding simple shortcodes inside the post editor. The tabs transform into an accordion on a viewport 767px wide or less.
@@ -111,13 +111,17 @@ eg:
 
 Changing these values individually will show you how they interact.
 
+= I've just updated to version 1.0.2 and the tabs are now displaying incorrectly =
+
+The CSS has changed in version 1.0.2. It is possible that you added css rules to your theme's stylesheet rather than following the recommended method for using  a customised version of the css.
+
 = Can you create a customised stylesheet for me to fit in with the colours of my website? =
 
-I'd love to, but my time is limited and this is beyond of the scope of the free support that I can give on the forums, I can offer this as a paid service. Please send me details of your requirements via the [cubecolour contact form](http://cubecolour.co.uk/contact/ "cubecolour contact form").
+I'd love to, but my time is limited and this is beyond of the scope of the free support that I can provide. I can however offer this as paid consultancy. Please send me details of your requirements via the [cubecolour contact form](http://cubecolour.co.uk/contact/ "cubecolour contact form") for a quote. Please do not use that form for requests for free support. Plugin support is provided at the [plugin's support forum](http://wordpress.org/support/plugin/tabby-responsive-tabs/ "Tabby Responsive Tabs plugin support forum") on WordPress.org.
 
-= Why do you spell the word 'colour' incorrectly? =
+= Why do you spell the word 'color' incorrectly? =
 
-I don't, I'm from England.
+I don't, I'm from England and 'colour' is the correct spelling.
 
 = I am using the plugin and love it, how can I show my appreciation? =
 
@@ -140,6 +144,11 @@ The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 
 
 = 1.0.1 =
 
+* enqueue plugin js only when needed
+* css for improved specificity
+
+= 1.0.1 =
+
 * Updated js & css
 
 = 1.0.0 =
@@ -147,6 +156,11 @@ The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 
 * Initial Version
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+
+* better efficiency - enqueue plugin js only when needed
+* improved theme compatibility with default css
 
 = 1.0.1 =
 
