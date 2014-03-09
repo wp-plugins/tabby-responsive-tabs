@@ -4,7 +4,7 @@ Donate link: http://cubecolour.co.uk/wp
 Tags: tabs, responsive, shortcode, tab
 Requires at least: 3.7
 Tested up to: 3.8.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 / MIT
 
 Tabby enables you to create responsive tabs inside your posts, pages or custom post types by adding simple shortcodes inside the post editor. The tabs transform into an accordion on a viewport 767px wide or less.
@@ -111,7 +111,7 @@ eg:
 
 Changing these values individually will show you how they interact.
 
-= I've just updated to version 1.0.2 and the tabs are now displaying incorrectly =
+= I've just updated to version 1.0.2+ and the tabs are now displaying incorrectly =
 
 The CSS has changed in version 1.0.2. It is possible that you added css rules to your theme's stylesheet rather than following the recommended method for using  a customised version of the css.
 
@@ -142,7 +142,11 @@ The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 
 
 == Changelog ==
 
-= 1.0.1 =
+= 1.0.3 =
+
+* improved theme compatibility with default css
+
+= 1.0.2 =
 
 * enqueue plugin js only when needed
 * css for improved specificity
@@ -157,7 +161,11 @@ The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 
 
 == Upgrade Notice ==
 
-= 1.0.1 =
+= 1.0.3 =
+
+* improved theme compatibility with default css
+
+= 1.0.2 =
 
 * better efficiency - enqueue plugin js only when needed
 * improved theme compatibility with default css
