@@ -3,7 +3,7 @@ Contributors: numeeja
 Donate link: http://cubecolour.co.uk/wp
 Tags: tabs, responsive, shortcode, tab
 Requires at least: 3.7
-Tested up to: 3.8.2
+Tested up to: 3.8.3
 Stable tag: 1.0.3
 License: GPLv2 / MIT
 
