@@ -129,7 +129,9 @@ You can donate via [my donation page](http://cubecolour.co.uk/wp/ "cubecolour do
 
 If you find the plugin useful I would also appreciate a review on the [plugin review page](http://wordpress.org/support/view/plugin-reviews/tabby-reponsive-tabs/ "Tabby Responsive Tabs plugin reviews")
 
-If the isn't working for you, please read the documentation to check whether your issue is answered already. If your issue is not addressed here, please post a question on the [plugin support forum](http://wordpress.org/support/plugin/tabby-responsive-tabs/ "Tabby Responsive Tabs plugin support forum") so we have an opportunity to try to get it working before you leave a review.
+= It doesn't work =
+
+If the plugin isn't working for you, please read the documentation to check whether your issue is answered already. If your issue is not addressed here, please post a question on the [plugin support forum](http://wordpress.org/support/plugin/tabby-responsive-tabs/ "Tabby Responsive Tabs plugin support forum") so we have an opportunity to try to get it working before you leave a review.
 
 == Other Notes ==
 
