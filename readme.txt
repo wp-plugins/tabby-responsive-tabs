@@ -51,7 +51,9 @@ If you want to change how the tabs and accordion display on your site, you have 
 
 1. Use the [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-reponsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") plugin.
 
-2. Copy the contents of the plugin's stylesheet into your child theme or custom styles plugin and make the changes. You also need to prevent the built-in styles from loading by adding the following line to your child theme's functions.php or a custom functionality plugin: `<?php remove_action('wp_print_styles', 'cc_tabby_css', 30); ?>`
+2. Copy the contents of the plugin's stylesheet into your child theme or custom styles plugin and make the changes. You also need to prevent the built-in styles from loading by adding the following line to your child theme's functions.php or a custom functionality plugin:
+
+`	<?php remove_action('wp_print_styles', 'cc_tabby_css', 30); ?>`
 
 = Additional Shortcode attributes =
 
