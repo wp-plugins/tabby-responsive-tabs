@@ -49,16 +49,13 @@ You can see the tabs on the [demo page](http://cubecolour.co.uk/tabby-responsive
 
 If you want to change how the tabs and accordion display on your site, you have two options:
 
-1. Use the [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") plugin.
+1. Use the [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") plugin which provides a very easy way to customise the display of your tabs without needing to edit any code.
 
-2. Copy the contents of the plugin's stylesheet into your child theme or custom styles plugin and make the changes. You also need to prevent the built-in styles from loading by adding the following line to your child theme's functions.php or a custom functionality plugin:
-
-`	<?php remove_action('wp_print_styles', 'cc_tabby_css', 30); ?>`
+2. Copy the contents of the plugin's stylesheet into your child theme or custom styles plugin and make the changes. You also need to prevent the built-in styles from loading by adding the following line to your child theme's functions.php or a custom functionality plugin: `<?php remove_action('wp_print_styles', 'cc_tabby_css', 30); ?>`
 
 = Additional Shortcode attributes =
 
 **Open**
-====
 The first (leftmost) tab panel will be open by default in 'tab view' and in 'accordion view'.
 
 If you want a specific tab other than the first to be open by default when the page first loads, you can add the attribute **open="yes"** to the shortcode for that tab:
@@ -67,7 +64,6 @@ If you want a specific tab other than the first to be open by default when the p
 [tabby title="My Tab" open="yes"]
 `
 **Icon**
-====
 You can add the markup required to show an icon alongside a tab title by using the **'icon'** attribute. You will need to use a theme or plugin to add the icon files:
 `
 [tabby title="My Tab" icon="cog"]
