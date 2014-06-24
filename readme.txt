@@ -49,7 +49,7 @@ You can see the tabs on the [demo page](http://cubecolour.co.uk/tabby-responsive
 
 If you want to change how the tabs and accordion display on your site, you have two options:
 
-1. Use the [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-reponsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") plugin.
+1. Use the [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") plugin.
 
 2. Copy the contents of the plugin's stylesheet into your child theme or custom styles plugin and make the changes. You also need to prevent the built-in styles from loading by adding the following line to your child theme's functions.php or a custom functionality plugin:
 
@@ -77,7 +77,7 @@ eg:
 `
 This adds a pseudo element before the tab table with the classes "fa" and "fa-cog". Other icon font sets can be used if you ensure the CSS rules target the classes added by the plugin. 
 
-The [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-reponsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") plugin can be used to add the required Font Awesome files for you.
+The [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") plugin can be used to add the required Font Awesome files for you.
 
 
 = Controlling which tab is open depending on the link =
@@ -95,7 +95,7 @@ yoursite.com/contact/?target=email-addresses
 `
 
 = Tabby Responsive Tabs Customiser Plugin =
-If you want a very easy way to customise the display of your tabs without any editing code, you can purchase the [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-reponsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") plugin.
+If you want a very easy way to customise the display of your tabs without any editing code, you can purchase the [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") plugin.
 
 == Installation ==
 
@@ -120,7 +120,7 @@ If changing the theme makes no difference, deactivate all other plugins. If Tabb
 
 = Where is the plugin's admin page? =
 
-There isn't one. This is a lightweight plugin with no options. If you want to be able to configure your tabs using an admin page, the [Tabby Responsive Tabs Customiser plugin](http://cubecolour.co.uk/tabby-reponsive-tabs-customiser/ "Tabby Responsive Tabs Customiser plugin") is available.
+There isn't one. This is a lightweight plugin with no options. If you want to be able to configure your tabs using an admin page, the [Tabby Responsive Tabs Customiser plugin](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser plugin") is available.
 
 = Does it work with responsive Themes? =
 
@@ -138,7 +138,7 @@ If you are using a customised version of the plugin's styles, you should also pr
 
 `<?php remove_action('wp_print_styles', 'cc_tabby_css', 30); ?>`
 
-If you prefer to use an admin page to set some custom styles, you can use the [Tabby Responsive Tabs Customiser plugin](http://cubecolour.co.uk/tabby-reponsive-tabs-customiser/ "Tabby Responsive Tabs Customiser plugin").
+If you prefer to use a settings page in WordPress admin to set some custom styles, you can use the [Tabby Responsive Tabs Customiser plugin](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser plugin").
 
 = Can I change the responsive breakpoint from the default 767px? =
 
@@ -182,9 +182,9 @@ I don't, I'm from England and 'colour' is the correct spelling.
 
 = I am using the plugin and love it, how can I show my appreciation? =
 
-You can donate any amount via [my donation page](http://cubecolour.co.uk/wp/ "cubecolour donation page") or you could purchase a copy of the [Tabby Responsive Tabs Customiser plugin](http://cubecolour.co.uk/tabby-reponsive-tabs-customiser/ "Tabby Responsive Tabs Customiser plugin").
+You can donate any amount via [my donation page](http://cubecolour.co.uk/wp/ "cubecolour donation page") or you could purchase a copy of the [Tabby Responsive Tabs Customiser plugin](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser plugin").
 
-If you find Tabby Responsive Tabs useful, I would also appreciate a review on the [plugin review page](http://wordpress.org/support/view/plugin-reviews/tabby-reponsive-tabs/ "Tabby Responsive Tabs plugin reviews")
+If you find Tabby Responsive Tabs useful, I would also appreciate a review on the [plugin review page](http://wordpress.org/support/view/plugin-reviews/tabby-responsive-tabs/ "Tabby Responsive Tabs plugin reviews")
 
 = Is the Tabby Responsive Tabs Customiser a Premium or Pro Version of Tabby Responsive Tabs? =
 
@@ -196,7 +196,7 @@ The free Tabby Responsive Tabs plugin was designed as a lightweight plugin for a
 
 = How much does the Tabby Responsive Tabs Customiser plugin cost? =
 
-The [Tabby Responsive Tabs Customiser plugin](http://cubecolour.co.uk/tabby-reponsive-tabs-customiser/ "Tabby Responsive Tabs Customiser plugin") costs just £15 (GBP). If you buy during June 2014, a launch discount of 20% is available with the discount code: TWINKLE20.
+The [Tabby Responsive Tabs Customiser plugin](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser plugin") costs just £15 (GBP). If you buy during June 2014, a launch discount of 20% is available with the discount code: TWINKLE20.
 
 == Other Notes ==
 
