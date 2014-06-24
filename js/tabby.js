@@ -1,13 +1,14 @@
 /* ----------------
-ResponsiveTabs.js
-Author: Pete Love | www.petelove.com
-Version: 1.10
+Tabby.js 1.1.0
+
+based on ResponsiveTabs.js 1.10
+by Pete Love
 ------------------- */
 
 var RESPONSIVEUI = {};
 
 (function($) {
-
+					
 	RESPONSIVEUI.responsiveTabs = function () {
 		var $tabSets = $('.responsive-tabs');
 
@@ -32,10 +33,16 @@ var RESPONSIVEUI = {};
 					$activePanel = $tabs.find('.responsive-tabs__panel').first().addClass('responsive-tabs__panel--active');
 				}
 
+				/* Add active class to the active header of the panel (FOR MOBILE) */                
+				$activeHeader = $activePanel.prev();
+				if($activeHeader !== null) {
+					$activeHeader.addClass("responsive-tabs__heading--active");
+				}
+
 				$tabs.find('.responsive-tabs__panel').not('.responsive-tabs__panel--active').hide().attr('aria-hidden','true'); //hide all except active panel
 				$activePanel.attr('aria-hidden', 'false');
-				/* make active tab panel hidden for mobile */
-				$activePanel.addClass('responsive-tabs__panel--closed-accordion-only');
+				/* make active tab panel hidden for mobile *
+				$activePanel.addClass('responsive-tabs__panel--closed-accordion-only');*/
 
 				// wrap tabs in container - to be dynamically resized to help prevent page jump
 				var $tabsWrapper = $('<div/>', {'class': 'responsive-tabs-wrapper' });
@@ -68,17 +75,18 @@ var RESPONSIVEUI = {};
 					//associate tab list item with tab panel
 					var $tabListItem = $('<li/>', { 
 						'class': 'responsive-tabs__list__item',
+						html: $tabHeading.html(),
 						id: 'tablist' + tablistcount + '-tab' + tabcount,
 						'aria-controls': 'tablist' + tablistcount +'-panel' + tabcount,
 						'role': 'tab',
 						tabindex: 0,
-						text: $tabHeading.text(),
 						keydown: function (objEvent) {
 							if (objEvent.keyCode === 13) { // if user presses 'enter'
 								$tabListItem.click();
 							}
 						},
 						click: function() {
+
 							//Show associated panel
 
 							//set height of tab container to highest panel height to avoid page jump
@@ -104,6 +112,7 @@ var RESPONSIVEUI = {};
 
 							//reset height of tab panels to auto
 							$tabsWrapper.css('height', 'auto');
+					
 						}
 					});
 					
@@ -133,7 +142,7 @@ var RESPONSIVEUI = {};
 
 					//toggle tab panel if click heading (on mobile)
 					$tabHeading.click(function() {
-
+							
 						// remove any hidden mobile class
 						$tabs.find('.responsive-tabs__panel--closed-accordion-only').removeClass('responsive-tabs__panel--closed-accordion-only');
 
@@ -172,9 +181,9 @@ var RESPONSIVEUI = {};
 							var tabsPos = $tabs.offset().top;
 							var newActivePos = ($tabHeading.offset().top) - 15;
 							if(oldActivePos < newActivePos) {
-								$('html, body').animate({ scrollTop: tabsPos }, 0).animate({ scrollTop: newActivePos }, 400);
+								$('html, body').animate({ scrollTop: tabsPos }, 0).animate({ scrollTop: newActivePos }, 550);
 							}
-							
+
 						}
 
 						// if this tab panel is already active
@@ -192,15 +201,16 @@ var RESPONSIVEUI = {};
 					});
 
 					tabcount ++;
-
 				});
 
 				// add finished tab list to its container
 				$tabs.prepend($tabList);
+				
 
 				// next set of tabs on page
 				tablistcount ++;
 			});
 		}
 	};
+	
 })(jQuery);
