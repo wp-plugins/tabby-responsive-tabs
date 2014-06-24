@@ -61,17 +61,14 @@ If you want to change how the tabs and accordion display on your site, you have 
 ====
 The first (leftmost) tab panel will be open by default in 'tab view' and in 'accordion view'.
 
-If you want a specific tab other than the first to be open by default when the page first loads, you can add the attribute **open="yes"** to the shortcode for that tab.
+If you want a specific tab other than the first to be open by default when the page first loads, you can add the attribute **open="yes"** to the shortcode for that tab:
 
-eg:
 `
 [tabby title="My Tab" open="yes"]
 `
 **Icon**
 ====
-You can add the markup required to show an icon alongside a tab title by using the **'icon'** attribute. You will need to use a theme or plugin to add the icon files.
-
-eg:
+You can add the markup required to show an icon alongside a tab title by using the **'icon'** attribute. You will need to use a theme or plugin to add the icon files:
 `
 [tabby title="My Tab" icon="cog"]
 `
@@ -82,8 +79,6 @@ The [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-
 
 = Controlling which tab is open depending on the link =
 You can use a 'target' URL parameter to set which tab will be open. The value of this parameter is based on tab title specified in the tabby shortcode with punctuation & special characters removed and with spaces replaced by dashes.
-
-eg:
 
 If you want to link to a 'contacts' page with a tab titled 'Phone Numbers' open, the url you use in link to this page would look like:
 `
