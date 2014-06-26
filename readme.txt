@@ -19,7 +19,7 @@ Enables you to create responsive tabs inside your posts, pages or custom post ty
 * Tabs and content are accessible via keyboard
 
 = Tabby Responsive Tabs Customiser Add-on Plugin =
-If you need a simple way to customise the display of your tabs, you can now purchase the optional [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") add-on plugin which adds a comprehensive settings panel for Tabby Responsive Tabs fpr creating your unique style without editing any code. It also provides several one-click style presets and adds in the files to enable icons to be included in the your titles.
+If you need a simple way to customise the display of your tabs, you can now purchase the optional [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") add-on plugin which adds a comprehensive settings panel for Tabby Responsive Tabs for creating your unique style without editing any code. It also provides several one-click style presets and adds in the files to enable icons to be included in the your titles.
 
 = Usage: =
 
