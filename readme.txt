@@ -18,6 +18,9 @@ Enables you to create responsive tabs inside your posts, pages or custom post ty
 * Aria attributes and roles aid screen reader accessibility
 * Tabs and content are accessible via keyboard
 
+= Tabby Responsive Tabs Customiser Add-on Plugin =
+If you need a simple way to customise the display of your tabs, you can now purchase the optional [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") add-on plugin which adds a comprehensive settings panel for Tabby Responsive Tabs fpr creating your unique style without editing any code. It also provides several one-click style presets and adds in the files to enable icons to be included in the your titles.
+
 = Usage: =
 
 There are two shortcodes which should both be used `[tabby]` and `[tabbyending]`
@@ -85,9 +88,6 @@ and if you want a tab with the title 'email addresses' to be open, the url would
 yoursite.com/contact/?target=email-addresses
 `
 
-= Tabby Responsive Tabs Customiser Plugin =
-If you want a very easy way to customise the display of your tabs without any editing code, you can purchase the [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") plugin.
-
 == Installation ==
 
 1. Upload the plugin folder to your '/wp-content/plugins/' directory
@@ -126,10 +126,9 @@ The plugin should also work with non-responsive Themes, however this is not reco
 The recommended way is to  copy the css rules from the plugin's stylesheet into your child theme's stylesheet (or a custom CSS plugin) and then customise the colours or use a plugin to add in the css. The css rules should be straighforward to work out.
 
 If you are using a customised version of the plugin's styles, you should also prevent the built-in styles from loading by adding the following line to your child theme's functions.php or a custom functionality plugin:
-
 `<?php remove_action('wp_print_styles', 'cc_tabby_css', 30); ?>`
 
-If you prefer to use a settings page in WordPress admin to set some custom styles, you can use the [Tabby Responsive Tabs Customiser plugin](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser plugin").
+If you prefer to use a settings page in your WordPress admin to set a custom tab style, you can use the [Tabby Responsive Tabs Customiser plugin](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser plugin") which contains several tab style presets which can be further customised with a comprehensive set of easy to set options.
 
 = Can I change the responsive breakpoint from the default 767px? =
 
@@ -151,21 +150,21 @@ Yes you can have as many as you like.
 
 = Can I specify which tab is open when the page initially loads? =
 
-Yes, see the 'open' shortcode parameter
+Yes, see the documentation for the 'open' shortcode parameter for details.
 
 = Can I specify which tab is open from a link pointing to the page =
 
-Yes, use a 'target' URL parameter in the link
+Yes, see the documentation for the usage of a 'target' URL parameter in the link.
 
 = I've just updated the plugin and the tabs are now displaying differently =
 
-The default CSS has changed in version 1.0.2 and version 1.1.0. If your tabs now appear 'broken' after an update, this may be due to your site using customised tab styles added to your theme instead of following the recommended method of replacing the default CSS with a complete customised version. To fix this remove the CSS rules you added to your theme to customise the tabs and add the custom styles by the recommended method.
+The default CSS has changed in version 1.0.2 and version 1.1.0. If your tabs now appear 'broken' after an update, this may be due to your site using customised tab styles added to your theme instead of following the recommended method of replacing the default CSS with a complete customised version. To fix this remove the CSS rules you added to your theme to target the tabs and add the custom styles using the method outlined in the documentation.
 
 = Can you create a customised stylesheet for me to fit in with the colours of my website? =
 
-Unfortunately this is beyond of the scope of the free support I can provide. However I can offer this as paid consultancy. Please send me details of your requirements via the [cubecolour contact form](http://cubecolour.co.uk/contact/ "cubecolour contact form") for a quote. Please note that requests for free support sent via the form on that page will not be responded to.
+Unfortunately this is beyond of the scope of the free support I can provide. You should be able to style your tabs to integrate closely with your theme using the optional [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") add-on plugin.
 
-Plugin support is provided at the [plugin's support forum](http://wordpress.org/support/plugin/tabby-responsive-tabs/ "Tabby Responsive Tabs plugin support forum") on WordPress.org.
+Plugin support for Tabby Responsive Tabs is provided at the [plugin's support forum](http://wordpress.org/support/plugin/tabby-responsive-tabs/ "Tabby Responsive Tabs plugin support forum") on WordPress.org.
 
 = Why do you spell the word 'color' incorrectly? =
 
@@ -179,15 +178,15 @@ If you find Tabby Responsive Tabs useful, I would also appreciate a review on th
 
 = Is the Tabby Responsive Tabs Customiser a Premium or Pro Version of Tabby Responsive Tabs? =
 
-No, it is an add-on. Tabby Responsive Tabs works great and on its own and is ideal for anyone comfortable with editing a child theme. The Tabby Responsive Tabs Customiser plugin is for anyone who wants an easy way to customise how their tabs display without touching any code.
+No, Tabby Responsive Tabs works great on its own and is ideal for anyone comfortable with editing a child theme. The Tabby Responsive Tabs Customiser plugin is an add-on which is designed to be useful for anyone who wants an easy way to customise how their tabs display without touching any code.
 
 = Why is the Tabby Responsive Tabs Customiser an add-on plugin rather than part of Tabby Responsive Tabs? =
 
-The free Tabby Responsive Tabs plugin was designed as a lightweight plugin for a WordPress developer to add responsive tabs to their WordPress site. The functionality provided by the customiser plugin was never intended to be included as part of Tabby Responsive Tabs and is designed to be useful for non-developers.
+The free Tabby Responsive Tabs plugin was designed as a lightweight plugin for a WordPress developer to add responsive tabs to their WordPress site. The functionality provided by the optional add-on customiser plugin was never intended to be included as part of Tabby Responsive Tabs and is designed to be particularly useful for non-coders.
 
 = How much does the Tabby Responsive Tabs Customiser plugin cost? =
 
-The [Tabby Responsive Tabs Customiser plugin](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser plugin") costs just £15 (GBP). If you buy during June 2014, a launch discount of 20% is available with the discount code: TWINKLE20.
+The [Tabby Responsive Tabs Customiser plugin](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser plugin") costs just 15GBP. If you purchase before the end of June 2014, a launch discount of 20% is available with the discount code: TWINKLE20.
 
 == Other Notes ==
 

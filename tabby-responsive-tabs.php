@@ -2,7 +2,7 @@
 /*
 Plugin Name: Tabby Responsive Tabs
 Plugin URI: http://cubecolour.co.uk/tabby-responsive-tabs
-Description: Create responsive tabs inside your posts, pages or post types by adding simple shortcodes inside the post editor. The tabs change to an accordion layout on smaller screens.
+Description: Create responsive tabs inside your posts, pages or custom post types by adding simple shortcodes. An easy to use admin page can be added to customise the tab styles with the optional Tabby Responsive Tabs Customiser add-on plugin.
 Author: cubecolour
 Version: 1.1.1
 Author URI: http://cubecolour.co.uk
