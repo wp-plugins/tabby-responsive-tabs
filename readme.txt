@@ -29,7 +29,7 @@ There are two shortcodes which should both be used `[tabby]` and `[tabbyending]`
 
 *replace tabname with the name of your tab.*
 
-Add the tab content after that. It is recommended to leave a blank line before and after each tabby short code.
+Add the tab content after that. It is recommended to leave a blank line before and after each tabby shortcode.
 
 Add a `[tabbyending]` shortcode after the content of the last tab in a tabgroup.
 		
