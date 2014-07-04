@@ -19,7 +19,7 @@ Enables you to create responsive tabs inside your posts, pages or custom post ty
 * Tabs and content are accessible via keyboard
 
 = Tabby Responsive Tabs Customiser Add-on Plugin =
-If you need a simple way to customise the display of your tabs, you can now purchase the optional [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") add-on plugin which adds a comprehensive settings panel for Tabby Responsive Tabs for creating your unique style without editing any code. It also provides several one-click style presets and adds in the files to enable icons to be included in the your titles.
+For a simple way to customise the display of your tabs, you can now purchase the [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") add-on plugin. This adds a settings panel for Tabby Responsive Tabs so you can create a unique style for your tabs without editing any code. This also provides several one-click style presets and allows you to load the files required to add icons to your tab titles.
 
 = Usage: =
 
@@ -95,12 +95,12 @@ yoursite.com/contact/?target=email-addresses
 
 == Frequently Asked Questions ==
 
-= Why doesn't it work? =
+= Why isn't it working for me? =
 
-There are a few factors that may cause the plugin not to work.
+There are a few things to investigate when troubleshooting a plugin which is not working as expected:
 
 **Incorrectly formed shortcodes**
-If you copied &amp; pasted in the shortcodes from a web page rather than having typed them directly, it is possible that there may be artefacts such as invisible characters in the version copied. Correct this by deleting the shortcodes and try typing them directly instead.
+If you copied &amp; pasted in the shortcodes from a web page rather than directly typing them into the page, it is possible that there may be invisible characters in the shortcode text. Correct this by deleting the shortcodes and type them directly instead.
 
 **Plugin or theme conflicts**
 To troubleshoot whether you have a plugin or theme conflicting with he plugin, switch to a default theme such as Twenty-Thirteen. If the plugin starts working correctly at that point, you know that the theme is at fault.
@@ -186,7 +186,7 @@ The free Tabby Responsive Tabs plugin was designed as a lightweight plugin for a
 
 = How much does the Tabby Responsive Tabs Customiser plugin cost? =
 
-The [Tabby Responsive Tabs Customiser plugin](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser plugin") costs just 15GBP. If you purchase before the end of June 2014, a launch discount of 20% is available with the discount code: TWINKLE20.
+The [Tabby Responsive Tabs Customiser plugin](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser plugin") costs 15GBP.
 
 == Other Notes ==
 
