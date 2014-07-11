@@ -58,6 +58,7 @@ If you want to change how the tabs and accordion display on your site, you have 
 = Additional Shortcode attributes =
 
 **Open**
+
 The first (leftmost) tab panel will be open by default in 'tab view' and in 'accordion view'.
 
 If you want a specific tab other than the first to be open by default when the page first loads, you can add the attribute **open="yes"** to the shortcode for that tab:
@@ -66,6 +67,7 @@ If you want a specific tab other than the first to be open by default when the p
 [tabby title="My Tab" open="yes"]
 `
 **Icon**
+
 You can add the markup required to show an icon alongside a tab title by using the **'icon'** attribute. You will need to use a theme or plugin to add the icon files:
 `
 [tabby title="My Tab" icon="cog"]
@@ -78,11 +80,11 @@ The [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-
 = Controlling which tab is open when linking to the page =
 You can use a 'target' URL parameter to set which tab will be open. The value of this parameter is based on tab title specified in the tabby shortcode with punctuation & special characters removed and with spaces replaced by dashes.
 
-If you want to link to a 'contacts' page with a tab titled 'Phone Numbers' open, the url you use in link to this page would look like:
+If you want to link to a 'contacts' page with a tab titled 'Phone Numbers' open, the url you use to link to this page would look like:
 `
 yoursite.com/contact/?target=phone-numbers
 `
-and if you want a tab with the title 'email addresses' to be open, the url would look like:
+If you want a tab with the title 'email addresses' to be open, the url would look like:
 `
 yoursite.com/contact/?target=email-addresses
 `
@@ -96,7 +98,7 @@ yoursite.com/contact/?target=email-addresses
 
 = Why isn't it working for me? =
 
-There are a few things to investigate when troubleshooting a plugin which is not working as expected:
+There are a few things you can investigate when troubleshooting a plugin which is not working as expected:
 
 **Incorrectly formed shortcodes**
 If you copied &amp; pasted in the shortcodes from a web page rather than directly typing them into the page, it is possible that there may be invisible characters in the shortcode text. Correct this by deleting the shortcodes and type them directly instead.
@@ -114,11 +116,11 @@ There isn't one. This is a lightweight plugin with no options. If you want to be
 
 = Does it work with responsive Themes? =
 
-Yes - it should work with any well coded responsive theme.
+Yes - it should work with any well-coded responsive theme.
 
 = Does it work with non-responsive Themes? =
 
-The plugin should also work with non-responsive Themes, however this is not recommended and if you are using a non-responsive theme the tabs will not switch to an accordion display on a mobile device.
+The plugin should also work with non-responsive Themes, however this is not really recommended; if you are using a non-responsive theme the tabs will not switch to an accordion display on a mobile device.
 
 = How can I change the colours? =
 
@@ -131,7 +133,7 @@ If you prefer to use a settings page in your WordPress admin to set a custom tab
 
 = Can I change the responsive breakpoint from the default 767px? =
 
-Yes, you'll find where that is set in the css. Refer to the answer above about using custom css.
+Yes, you'll find where that is set in the CSS. Refer to the answer above about using custom css.
 
 This value can also be set using the Tabby Responsive Tabs Customiser plugin's admin panel. 
 
@@ -145,7 +147,7 @@ Some google maps plugins also render their content with zero height & width if t
 
 = Can I display multiple tab groups on a single page? =
 
-Yes you can have as many as you like.
+Yes you can have as many sets of tabs as you like.
 
 = Can I specify which tab is open when the page initially loads? =
 
@@ -177,11 +179,11 @@ If you find Tabby Responsive Tabs useful, I would also appreciate a review on th
 
 = Is the Tabby Responsive Tabs Customiser a Premium or Pro Version of Tabby Responsive Tabs? =
 
-No, Tabby Responsive Tabs works great on its own and is ideal for anyone comfortable with editing a child theme. The Tabby Responsive Tabs Customiser plugin is an add-on which is designed to be useful for anyone who wants an easy way to customise how their tabs display without touching any code.
+No, Tabby Responsive Tabs works great on its own and customising how the tabs display should be straightforward for anyone comfortable with editing a child theme. The Tabby Responsive Tabs Customiser plugin is an add-on which is designed to be useful for anyone who wants an easy way to customise how their tabs display without touching any code.
 
 = Why is the Tabby Responsive Tabs Customiser an add-on plugin rather than part of Tabby Responsive Tabs? =
 
-The free Tabby Responsive Tabs plugin was designed as a lightweight plugin for a WordPress developer to add responsive tabs to their WordPress site. The functionality provided by the optional add-on customiser plugin was never intended to be included as part of Tabby Responsive Tabs and is designed to be particularly useful for non-coders.
+The free Tabby Responsive Tabs plugin was designed as a lightweight plugin for WordPress developers to add responsive tabs to their WordPress site. The functionality provided by the optional add-on customiser plugin was never intended to be included as part of Tabby Responsive Tabs and is designed to be particularly useful for non-coders.
 
 = How much does the Tabby Responsive Tabs Customiser plugin cost? =
 
