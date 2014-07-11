@@ -75,7 +75,7 @@ This adds a pseudo element before the tab table with the classes "fa" and "fa-co
 The [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") plugin can be used to add the required Font Awesome files for you.
 
 
-= Controlling which tab is open depending on the link =
+= Controlling which tab is open when linking to the page =
 You can use a 'target' URL parameter to set which tab will be open. The value of this parameter is based on tab title specified in the tabby shortcode with punctuation & special characters removed and with spaces replaced by dashes.
 
 If you want to link to a 'contacts' page with a tab titled 'Phone Numbers' open, the url you use in link to this page would look like:
