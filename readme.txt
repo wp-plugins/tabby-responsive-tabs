@@ -18,7 +18,7 @@ Enables you to create responsive tabs inside your posts, pages or custom post ty
 * Aria attributes and roles aid screen reader accessibility
 * Tabs and content are accessible via keyboard
 
-> For the easiest way to customise the display of your tabs, you can now buy the [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") add-on from cubecolour. This adds a settings panel for customising your tabs without editing any code. You can use the default tabby styles or one of the one-click style presets as a starting point for customisation. The add-on also enables you to load the files required to add icons to your tab titles.
+> For the easiest way to customise the display of your tabs, you can now use the [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") add-on from cubecolour. This adds a settings panel for customising your tabs without editing any code. You can use the default tabby styles or one of the one-click style presets as a starting point for customisation. This add-on also enables you to load the files required to add icons to your tab titles.
 
 = Usage: =
 
@@ -53,7 +53,7 @@ If you want to change how the tabs and accordion display on your site, you have 
 
 1. Use the [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") plugin which provides a very easy way to customise the display of your tabs without needing to edit any code.
 
-2. Copy the contents of the plugin's stylesheet into your child theme or custom styles plugin and make the changes. You also need to prevent the built-in styles from loading by adding the following line to your child theme's functions.php or a custom functionality plugin: `<?php remove_action('wp_print_styles', 'cc_tabby_css', 30); ?>`
+2. Copy the contents of the plugin's stylesheet into your child theme or custom styles plugin and make the changes to the copy as required. If you do this you will also need to prevent the built-in styles from loading by adding the following line to your child theme's functions.php or a custom functionality plugin: `<?php remove_action('wp_print_styles', 'cc_tabby_css', 30); ?>`
 
 = Additional Shortcode attributes =
 
@@ -61,14 +61,14 @@ If you want to change how the tabs and accordion display on your site, you have 
 
 The first (leftmost) tab panel will be open by default in 'tab view' and in 'accordion view'.
 
-If you want a specific tab other than the first to be open by default when the page first loads, you can add the attribute **open="yes"** to the shortcode for that tab:
+If you want a specific tab other than the first tab to be open by default when the page first loads, you can add the parameter & value **open="yes"** to the shortcode for that tab:
 
 `
 [tabby title="My Tab" open="yes"]
 `
 **Icon**
 
-You can add the markup required to show an icon alongside a tab title by using the **'icon'** attribute. You will need to use a theme or plugin to add the icon files:
+The markup required to show an icon alongside a tab title can be added by using the **'icon'** attribute. Tabby responsive tabs does not add the icons files, you will also need to use a theme or plugin (such as the tabby responsive tabs customiser add-on) to add the icon files:
 `
 [tabby title="My Tab" icon="cog"]
 `
@@ -124,12 +124,10 @@ The plugin should also work with non-responsive Themes, however this is not real
 
 = How can I change the colours? =
 
-The recommended way is to  copy the css rules from the plugin's stylesheet into your child theme's stylesheet (or a custom CSS plugin) and then customise the colours or use a plugin to add in the css. The css rules should be straighforward to work out.
-
-If you are using a customised version of the plugin's styles, you should also prevent the built-in styles from loading by adding the following line to your child theme's functions.php or a custom functionality plugin:
+The recommended method for experienced developers to customise how the tabs display is to copy the css rules from the plugin's stylesheet into the child theme's stylesheet and then customise the colours and other CSS as required. When using customised version of the plugin's styles in the child theme, you should also prevent the plugin's default built-in styles from loading by adding the following line to the child theme's functions.php (or a custom functionality plugin):
 `<?php remove_action('wp_print_styles', 'cc_tabby_css', 30); ?>`
 
-If you prefer to use a settings page in your WordPress admin to set a custom tab style, you can use the [Tabby Responsive Tabs Customiser plugin](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser plugin") which contains several tab style presets which can be further customised with a comprehensive set of easy to set options.
+If you prefer to use a settings page in your WordPress admin to set a custom tab style, you can use the [Tabby Responsive Tabs Customiser plugin](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser plugin") which contains several tab style presets which can be further customised with a comprehensive set of easy to set options. The cusomiser plugin was designed to be easy for non-developers to use to customise how the tabs display.
 
 = Can I change the responsive breakpoint from the default 767px? =
 
@@ -163,7 +161,7 @@ The default CSS has changed in version 1.0.2 and version 1.1.0. If your tabs now
 
 = Can you create a customised stylesheet for me to fit in with the colours of my website? =
 
-Unfortunately this is beyond of the scope of the free support I can provide. You should be able to style your tabs to integrate closely with your theme using the optional [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") add-on plugin.
+Unfortunately this is beyond of the scope of the free support I can provide. You can style your tabs to match your theme using the optional [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") add-on plugin.
 
 Plugin support for Tabby Responsive Tabs is provided at the [plugin's support forum](http://wordpress.org/support/plugin/tabby-responsive-tabs/ "Tabby Responsive Tabs plugin support forum") on WordPress.org.
 
