@@ -117,7 +117,7 @@ function cc_tabby_meta_links( $links, $file ) {
 //	Alternatively use the tabby responsive tabs customiser plugin
 //	available from from http:cubecolour.co.uk/tabby-responsive-tabs-customiser
 //
-//	Note wp_print_styles has been deprecated since WordPress 3.3 so, in a future version of this plugin will be replaced with:
+//	Note: wp_print_styles has been deprecated since WP v3.3, so in a future version of this plugin this will be replaced with:
 //	add_action( 'wp_enqueue_scripts', 'cc_tabby_css',30 );
 // ==============================================
 
