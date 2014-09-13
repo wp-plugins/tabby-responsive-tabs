@@ -198,6 +198,10 @@ The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 
 
 == Changelog ==
 
+= 1.2 =
+
+* Added print styles to default stylesheet
+
 = 1.1.1 =
 
 * Improvements to default CSS
@@ -228,6 +232,10 @@ The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 
 * Initial Version
 
 == Upgrade Notice ==
+
+= 1.2 =
+
+* Added print styles to default stylesheet
 
 = 1.1.1 =
 

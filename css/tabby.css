@@ -198,3 +198,31 @@
 		padding-top: 20px;
 	}
 }
+
+@media print {
+	.responsive-tabs .responsive-tabs__list {
+		display: none;
+	}
+
+	.responsive-tabs .responsive-tabs__heading {
+		background: none;
+		border: none;
+		border-bottom: 1px solid #000;
+		color: #000;
+		display: block;
+		font-size: 22px;
+		font-weight: bold;
+		text-transform: inherit;
+		margin: 0;
+		padding: 10px 0;
+	}
+
+	.responsive-tabs .responsive-tabs__panel {
+		color: #000;
+		display: block!important;
+		background: none;
+		border: none;
+		margin: 0;
+		padding: 20px 0 0;
+	}
+}
