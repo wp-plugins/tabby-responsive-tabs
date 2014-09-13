@@ -7,7 +7,7 @@ Tested up to: 4.0
 Stable tag: 1.1.1
 License: GPLv2 / MIT
 
-Enables you to create responsive tabs inside your posts, pages or custom post types by adding simple shortcodes inside the post editor.
+Create responsive tabs inside your posts, pages or custom post content by adding simple shortcodes inside the post editor.
 
 == Description ==
 
@@ -18,7 +18,9 @@ Enables you to create responsive tabs inside your posts, pages or custom post ty
 * Aria attributes and roles aid screen reader accessibility
 * Tabs and content are accessible via keyboard
 
-> For the easiest way to customise the display of your tabs, you can now use the [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") add-on from cubecolour. This adds a settings panel for customising your tabs without editing any code. You can use the default tabby styles or one of the one-click style presets as a starting point for customisation. This add-on also enables you to load the files required to add icons to your tab titles.
+The Tabby Responsive Tabs plugin is designed to be an easy and lightweight way to add responsive tabs to your content. There is no admin panel and experienced developers should be able to easily customise how the tabs display on their site by replacing the built-in CSS rules with a customised version (see note below for more details of this).
+
+> For the easiest way to customise the display of your tabs without editing any code, you can now use the [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") add-on from cubecolour. This adds a settings panel with several parameters for customising your tabs. You can use the default tabby styles or one of the included one-click style presets as a starting point for customisation. The add-on also enables you to easily add icons to your tab titles.
 
 = Usage: =
 
@@ -28,7 +30,7 @@ There are two shortcodes which should both be used `[tabby]` and `[tabbyending]`
 
 *replace tabname with the name of your tab.*
 
-Add the tab content after that. It is recommended to leave a blank line before and after each tabby shortcode.
+Add the tab content after the shortcode.
 
 Add a `[tabbyending]` shortcode after the content of the last tab in a tabgroup.
 		
@@ -109,6 +111,13 @@ To troubleshoot whether you have a plugin or theme conflicting with he plugin, s
 If changing the theme makes no difference, deactivate all other plugins. If Tabby Responsive Tabs starts working correctly at that point, discover which plugin caused the issue by reactivating the plugins one by one until tabby responsive tabs stops working again.
 
 *If the plugin isn't working for you*, please read the documentation to check whether your issue is covered. Then review the topics in the [plugin support forum](http://wordpress.org/support/plugin/tabby-responsive-tabs/ "Tabby Responsive Tabs plugin support forum"). You may find an appropriate solution outlined in a resolved topic. If you do not find an answer that enables you to solve your issue, please post a new topic on the forum so we have an opportunity to get it working before you consider leaving a review.
+
+= How can I get rid of extra paragraph tags at the beginning or end of the tab content? =
+These can be added by the wpautop function. It is recommended to leave a blank line before and after each tabby shortcode to prevent these from appearing.
+
+
+= Pasted-in shortcodes aren't working =
+If you are copying & pasting the example shortcodes into the visual editor and the shortcodes don't seem to be working, try the text editor in preference to be sure that you aren't adding in any extra markup that isn't visible in the visual mode (this applies to any plugin using shortcodes).
 
 = Where is the plugin's admin page? =
 
