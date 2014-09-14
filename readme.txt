@@ -18,7 +18,7 @@ Enables you to create responsive tabs inside your posts, pages or custom post ty
 * Aria attributes and roles aid screen reader accessibility
 * Tabs and content are accessible via keyboard
 
-> For the easiest way to customise the display of your tabs, you can now use the [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") add-on from cubecolour. This adds a settings panel for customising your tabs without editing any code. You can use the default tabby styles or one of the one-click style presets as a starting point for customisation. This add-on also enables you to load the files required to add icons to your tab titles.
+> For the easiest way to customise the display of your tabs, you can now use the [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") add-on from cubecolour. This adds a settings panel for customising your tabs without editing any code. You can use the default tabby styles or one of the one-click style presets as a starting point for customisation. The add-on also enables you to load the files required to add icons to your tab titles.
 
 = Usage: =
 
