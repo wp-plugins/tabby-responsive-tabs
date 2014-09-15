@@ -216,6 +216,7 @@ The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 
 
 1. On a desktop browser the content is displayed within tabs.
 2. When the browser width is below the size set in the media query, the tabs are replaced by an accordion.
+3. The basic print styles format the tab content appropriately for a printed document.
 
 == Changelog ==
 
