@@ -168,11 +168,23 @@ Yes, see the documentation for the usage of a 'target' URL parameter in the link
 
 The default CSS has changed in version 1.0.2 and version 1.1.0. If your tabs now appear 'broken' after an update, this may be due to your site using customised tab styles added to your theme instead of following the recommended method of replacing the default CSS with a complete customised version. To fix this remove the CSS rules you added to your theme to target the tabs and add the custom styles using the method outlined in the documentation.
 
-= Can you create a customised stylesheet for me to fit in with the colours of my website? =
+= Can you create a customised stylesheet for me to fit in with the colours or style of my website? =
 
-Unfortunately this is beyond of the scope of the free support I can provide. You can style your tabs to match your theme using the optional [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") add-on plugin.
+Site-specific customisation work is beyond of the scope of the free support I am able to provide. I am happy to take on CSS work as a paid job or you can style your tabs to match your theme using the optional [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") add-on plugin.
 
 Plugin support for Tabby Responsive Tabs is provided at the [plugin's support forum](http://wordpress.org/support/plugin/tabby-responsive-tabs/ "Tabby Responsive Tabs plugin support forum") on WordPress.org.
+
+= How will the tabs print? =
+
+Starting with version 1.2, basic print styles are included in a print media query at the end of the plugin stylesheet. This is designed to print the tab titles and content in series. If you are using custom styles for your tabs, you can copy these print styles to the end of your custom styles and customise them.
+
+= Are there any other free cubecolour plugins? =
+
+If you like Tabby Responsive Tabs, you may like some of my other plugins in the WordPress.org plugins directory. These are listed on my [profile](http://profiles.wordpress.org/numeeja/ "cubecolour profile") page under the 'plugins' tab.
+
+= Who or what is cubecolour? =
+
+My name is Michael Atkins. Cubecolour is the name of my web design and development business in South London where I work with businesses, organisations and individuals to build and support their websites using WordPress. I like to attend local WordCamps and WordPress meetups and I am a moderator on the WordPress.org forums. When I'm not sitting in front of my MacBook I can usually be found playing bass with a blues band called Junkyard Rocket
 
 = Why do you spell the word 'color' incorrectly? =
 
@@ -209,7 +221,7 @@ The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 
 
 = 1.2 =
 
-* Added print styles to default stylesheet
+* Added basic print styles to default stylesheet
 
 = 1.1.1 =
 
