@@ -1,5 +1,5 @@
 /* ----------------
-Tabby.js 1.1.0
+Tabby.js 1.2.0
 
 based on ResponsiveTabs.js 1.10
 by Pete Love
