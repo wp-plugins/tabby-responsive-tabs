@@ -4,7 +4,7 @@ Donate link: http://cubecolour.co.uk/wp
 Tags: tabs, responsive, shortcode, tab
 Requires at least: 3.7
 Tested up to: 4.0
-Stable tag: 1.1.1
+Stable tag: 1.2.0
 License: GPLv2 / MIT
 
 Create responsive tabs inside your posts, pages or custom post content by adding simple shortcodes inside the post editor.
@@ -220,7 +220,7 @@ The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 
 
 == Changelog ==
 
-= 1.2 =
+= 1.2.0 =
 
 * Added basic print styles to default stylesheet
 
@@ -233,7 +233,7 @@ The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 
 * Get Plugin Version function
 * Prevent tabs overlapping if there are too many
 * Remove hard coded paragraph tags in tab content & improve
-* Added icon font support (Font Awesome needs to be loaded by your theme or another plugin)
+* Added icon font support. Note: Font Awesome needs to be loaded by your theme or another plugin (including the Tabby Responsive Tabs Customiser)
 * Added functionality to allow target url parameter to control which tab is open on page load.
 
 = 1.0.3 =
@@ -255,7 +255,7 @@ The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 
 
 == Upgrade Notice ==
 
-= 1.2 =
+= 1.2.0 =
 
 * Added print styles to default stylesheet
 
