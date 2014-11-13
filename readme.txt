@@ -131,6 +131,10 @@ Yes - it should work with any well-coded responsive theme.
 
 The plugin should also work with non-responsive Themes, however this is not really recommended; if you are using a non-responsive theme the tabs will not switch to an accordion display on a mobile device.
 
+= Does it work with a multisite installation of WordPress? =
+
+Yes
+
 = How can I change the colours? =
 
 The recommended method for experienced developers to customise how the tabs display is to copy the css rules from the plugin's stylesheet into the child theme's stylesheet and then customise the colours and other CSS as required. When using customised version of the plugin's styles in the child theme, you should also prevent the plugin's default built-in styles from loading by adding the following line to the child theme's functions.php (or a custom functionality plugin):
@@ -173,6 +177,17 @@ The default CSS has changed in version 1.0.2 and version 1.1.0. If your tabs now
 Site-specific customisation work is beyond of the scope of the free support I am able to provide. I am happy to take on CSS work as a paid job or you can style your tabs to match your theme using the optional [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") add-on plugin.
 
 Plugin support for Tabby Responsive Tabs is provided at the [plugin's support forum](http://wordpress.org/support/plugin/tabby-responsive-tabs/ "Tabby Responsive Tabs plugin support forum") on WordPress.org.
+
+= Why can't I get the Target Parameter to Work =
+
+This is like any other URL parameter so you need to use a valid structure for the query string.
+
+If there's already a parameter in a query string, including the one included in the url when using default ugly permalinks, subsequent parameters must be appended using an ampersand.
+eg:
+
+`
+yoursite.com/?page_id=1&target=phone-numbers
+`
 
 = How will the tabs print? =
 
