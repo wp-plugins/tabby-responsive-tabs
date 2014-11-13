@@ -33,7 +33,7 @@ There are two shortcodes which should both be used `[tabby]` and `[tabbyending]`
 Add the tab content after the shortcode.
 
 Add a `[tabbyending]` shortcode after the content of the last tab in a tabgroup.
-		
+
 = Example =
 `
 [tabby title="First Tab"]
@@ -74,7 +74,7 @@ The markup required to show an icon alongside a tab title can be added by using 
 `
 [tabby title="My Tab" icon="cog"]
 `
-This adds a pseudo element before the tab table with the classes "fa" and "fa-cog". Other icon font sets can be used if you ensure the CSS rules target the classes added by the plugin. 
+This adds a pseudo element before the tab table with the classes "fa" and "fa-cog". Other icon font sets can be used if you ensure the CSS rules target the classes added by the plugin.
 
 The [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") plugin can be used to add the required Font Awesome files for you.
 
@@ -146,7 +146,7 @@ If you prefer to use a settings page in your WordPress admin to set a custom tab
 
 Yes, you'll find where that is set in the CSS. Refer to the answer above about using custom css.
 
-This value can also be set using the Tabby Responsive Tabs Customiser plugin's admin panel. 
+This value can also be set using the Tabby Responsive Tabs Customiser plugin's admin panel.
 
 = Why Doesn't my slider work in any tab except the first one? =
 
@@ -178,9 +178,9 @@ Site-specific customisation work is beyond of the scope of the free support I am
 
 Plugin support for Tabby Responsive Tabs is provided at the [plugin's support forum](http://wordpress.org/support/plugin/tabby-responsive-tabs/ "Tabby Responsive Tabs plugin support forum") on WordPress.org.
 
-= Why can't I get the Target Parameter to Work =
+= Why can't I get the Target Parameter to Work? =
 
-This is like any other URL parameter so you need to use a valid structure for the query string.
+This is used just like any other URL parameter in a query string so you need to use a valid structure for the query string.
 
 If there's already a parameter in a query string, including the one included in the url when using default ugly permalinks, subsequent parameters must be appended using an ampersand.
 eg:
@@ -243,7 +243,7 @@ The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 
 
 * Improvements to default CSS
 * Addition of 'open' shortcode attribute to allow tabs other than the first to be open when the page loads
-* First tab now is open by default when displayed as accordion 
+* First tab now is open by default when displayed as accordion
 * Changed links in plugin table
 * Get Plugin Version function
 * Prevent tabs overlapping if there are too many
