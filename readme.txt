@@ -148,13 +148,13 @@ Yes, you'll find where that is set in the CSS. Refer to the answer above about u
 
 This value can also be set using the Tabby Responsive Tabs Customiser plugin's admin panel.
 
-= Why Doesn't my slider work in any tab except the first one? =
+= Why Doesn't my slider or (non native WP) gallery work in any tab except the first one? =
 
-Some carousels/sliders plugins render their content with zero height & width if the tab containing the content is not visible on page load. If you need to place a slider in a tab, I would suggest trying Meteor Slides as it seems to work reliably in my tests.
+Some carousels/sliders plugins render their content with zero height & width if the tab containing the content is not visible on page load. If you need to place a slider in a tab, I would suggest trying Meteor Slides as it seems to work reliably in my tests. Native WordPress galleries also work with no problems.
 
 = Why Doesn't my Google Map work in any tab except the first one? =
 
-Some google maps plugins also render their content with zero height & width if the tab containing the content is not visible on page load. I would welcome any suggestions for a workaround that might help with this.
+Some google maps plugins render their content with zero height & width if the tab containing the content is not visible on page load. I would welcome any suggestions might help with this.
 
 = Can I display multiple tab groups on a single page? =
 
