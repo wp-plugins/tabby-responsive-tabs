@@ -150,7 +150,7 @@ This value can also be set using the Tabby Responsive Tabs Customiser plugin's a
 
 = Why Doesn't my slider or (non native WP) gallery work in any tab except the first one? =
 
-Some carousels/sliders plugins render their content with zero height & width if the tab containing the content is not visible on page load. If you need to place a slider in a tab, I would suggest trying Meteor Slides as it seems to work reliably in my tests. Native WordPress galleries also work with no problems.
+Some carousel/slider/gallery plugins render their content with zero height & width if the tab containing the content is not visible on page load. If you need to place a slider in a tab, I would suggest trying Meteor Slides as it seems to work reliably in my tests. Native WordPress galleries also work with no problems.
 
 = Why Doesn't my Google Map work in any tab except the first one? =
 
