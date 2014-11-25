@@ -1,9 +1,9 @@
 === Tabby Responsive Tabs ===
 Contributors: numeeja
 Donate link: http://cubecolour.co.uk/wp
-Tags: Tabs, jQuery tabs, Responsive Tabs, tabs shortcode, responsive, shortcode, tab
+Tags: tabs, jquery tabs, responsive tabs, tabs shortcode, responsive, shortcode, tab
 Requires at least: 3.7
-Tested up to: 4.1
+Tested up to: 4.0.1
 Stable tag: 1.2.0
 License: GPLv2 / MIT
 
