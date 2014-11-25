@@ -68,6 +68,9 @@ If you want a specific tab other than the first tab to be open by default when t
 `
 [tabby title="My Tab" open="yes"]
 `
+
+If you use the 'open' shortcode parameter in one of your tab shortcodes ensure that you only add it to single tab as having more than one tab open in a tab group is not supported.
+
 **Icon**
 
 The markup required to show an icon alongside a tab title can be added by using the **'icon'** attribute. Tabby responsive tabs does not add the icons files, you will also need to use a theme or plugin (such as the tabby responsive tabs customiser add-on) to add the icon files:
