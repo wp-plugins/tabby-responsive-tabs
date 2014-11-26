@@ -4,7 +4,7 @@ Donate link: http://cubecolour.co.uk/wp
 Tags: tabs, jquery tabs, responsive tabs, tabs shortcode, responsive, shortcode, tab
 Requires at least: 3.7
 Tested up to: 4.0.1
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPLv2 / MIT
 
 Create responsive tabs inside your posts, pages or custom post content by adding simple shortcodes inside the post editor.
