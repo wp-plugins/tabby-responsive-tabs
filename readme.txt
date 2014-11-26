@@ -202,7 +202,7 @@ If you like Tabby Responsive Tabs, you may like some of my other plugins in the 
 
 = Who or what is cubecolour? =
 
-My name is Michael Atkins. Cubecolour is the name of my web design and development business in South London where I work with businesses, organisations and individuals to build and support their websites using WordPress. I like to attend local WordCamps and WordPress meetups and I am a moderator on the WordPress.org forums. When I'm not sitting in front of my MacBook I can usually be found playing bass with a blues band called Junkyard Rocket
+My name is Michael Atkins. Cubecolour is the name of my web design and development business in South London where I work with businesses, organisations and individuals to build and support their websites using WordPress. I like to attend local WordCamps and WordPress meetups and I am a moderator on the WordPress.org forums. When I'm not sitting in front of my MacBook I can usually be found playing bass or ukulele.
 
 = Why do you spell the word 'color' incorrectly? =
 
@@ -237,6 +237,10 @@ The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 
 3. The basic print styles are intended to present the tab titles & content appropriately when printed out.
 
 == Changelog ==
+
+= 1.2.1 =
+
+* Added index.php to prevent the content of plugin directories being viewed if the site has not had directory browsing disallowed.
 
 = 1.2.0 =
 
