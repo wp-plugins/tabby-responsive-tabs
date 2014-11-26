@@ -47,6 +47,7 @@ Lay down in your way catnip stuck in a tree, sunbathe kittens.
 [tabby title="Third Tab"]
 
 sleep in the sink climb the curtains attack, give me fish.
+
 [tabbyending]
 `
 You can see the tabs on the [demo page](http://cubecolour.co.uk/tabby-responsive-tabs/ "Tabby Responsive Tabs demo").
@@ -69,7 +70,7 @@ If you want a specific tab other than the first tab to be open by default when t
 [tabby title="My Tab" open="yes"]
 `
 
-If you use the 'open' shortcode parameter in one of your tab shortcodes ensure that you only add it to single tab as having more than one tab open in a tab group is not supported.
+If you use the 'open' shortcode parameter in one of your tab shortcodes, ensure that you only add it to single tab as having more than one tab open within a tab group is not supported.
 
 **Icon**
 
@@ -79,11 +80,11 @@ The markup required to show an icon alongside a tab title can be added by using 
 `
 This adds a pseudo element before the tab table with the classes "fa" and "fa-cog". Other icon font sets can be used if you ensure the CSS rules target the classes added by the plugin.
 
-The [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") plugin can be used to add the required Font Awesome files for you.
+The [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") plugin can be used to add the Font Awesome files required to display the icons in the tab titles.
 
 
 = Controlling which tab is open when linking to the page =
-You can use a 'target' URL parameter to set which tab will be open. The value of this parameter is based on tab title specified in the tabby shortcode with punctuation & special characters removed and with spaces replaced by dashes.
+You can use a 'target' URL parameter to set which tab will be open when the page initially loads. The value of this parameter is based on the tab title specified in the tabby shortcode, but formatted with punctuation & special characters removed and with dashes replacing the spaces.
 
 If you want to link to a 'contacts' page with a tab titled 'Phone Numbers' open, the url you use to link to this page would look like:
 `
@@ -96,24 +97,24 @@ yoursite.com/contact/?target=email-addresses
 
 == Installation ==
 
-1. Upload the plugin folder to your '/wp-content/plugins/' directory
+1. Upload the Tabby Responsive Tabs plugin folder to your '/wp-content/plugins/' directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
 
 = Why isn't it working for me? =
 
-There are a few things you can investigate when troubleshooting a plugin which is not working as expected:
+There are a few things you can investigate when troubleshooting any plugin which is not working as expected:
 
 **Incorrectly formed shortcodes**
-If you copied &amp; pasted in the shortcodes from a web page rather than directly typing them into the page, it is possible that there may be invisible characters in the shortcode text. Correct this by deleting the shortcodes and type them directly instead.
+If you copied &amp; pasted in the Tabby Responsive Tabs shortcodes from a web page showing an example usage rather than directly typing them into the page, it is possible that there may be invisible or invalid characters in the shortcode text. Correct this by deleting the shortcodes and type them directly instead.
 
 **Plugin or theme conflicts**
-To troubleshoot whether you have a plugin or theme conflicting with he plugin, switch to a default theme such as Twenty-Thirteen. If the plugin starts working correctly at that point, you know that the theme is at fault.
+To troubleshoot whether you have a plugin or theme conflicting with the Tabby Responsive Tabs plugin, switch to a default theme such as Twenty-Thirteen. If the plugin starts working correctly at that point, you know that the theme needs to be investigated.
 
-If changing the theme makes no difference, deactivate all other plugins. If Tabby Responsive Tabs starts working correctly at that point, discover which plugin caused the issue by reactivating the plugins one by one until tabby responsive tabs stops working again.
+If changing the theme makes no difference, deactivate all plugins except Tabby Responsive Tabs. If your Tabs appear correctly at that point, discover which plugin caused the issue by reactivating the plugins one by one until Tabby Responsive Tabs stops working again.
 
-*If the plugin isn't working for you*, please read the documentation to check whether your issue is covered. Then review the topics in the [plugin support forum](http://wordpress.org/support/plugin/tabby-responsive-tabs/ "Tabby Responsive Tabs plugin support forum"). You may find an appropriate solution outlined in a resolved topic. If you do not find an answer that enables you to solve your issue, please post a new topic on the forum so we have an opportunity to get it working before you consider leaving a review.
+*If the plugin isn't working for you*, please read the documentation carefully to check whether your issue is covered. Then review the topics in the [plugin support forum](http://wordpress.org/support/plugin/tabby-responsive-tabs/ "Tabby Responsive Tabs plugin support forum"). You may find an appropriate solution outlined in a resolved topic if someone had the same or a similar issue. If you do not find an answer that enables you to solve your issue, please post a new topic on the forum so we have an opportunity to get it working before you consider leaving a review.
 
 = How can I get rid of extra paragraph tags at the beginning or end of the tab content? =
 These can be added by the wpautop function. It is recommended to leave a blank line before and after each tabby shortcode to prevent these from appearing.
