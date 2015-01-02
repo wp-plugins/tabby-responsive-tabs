@@ -164,6 +164,10 @@ Some google maps plugins render their content with zero height & width if the ta
 
 Yes you can have as many sets of tabs as you like.
 
+= Can I nest a Tag Group within an existing tab? =
+
+No, this is not supported.
+
 = Can I specify which tab is open when the page initially loads? =
 
 Yes, see the documentation for the 'open' shortcode parameter for details.
