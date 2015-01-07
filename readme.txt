@@ -50,6 +50,9 @@ sleep in the sink climb the curtains attack, give me fish.
 
 [tabbyending]
 `
+
+*note: To prevent stray paragraph tags being introduced by WordPress's wpautop filter, ensure that you leave a blank line above and below each tabby shortcode and the tabbyending.*
+
 You can see the tabs on the [demo page](http://cubecolour.co.uk/tabby-responsive-tabs/ "Tabby Responsive Tabs demo").
 
 If you want to change how the tabs and accordion display on your site, you have two options:
@@ -155,6 +158,10 @@ This value can also be set using the Tabby Responsive Tabs Customiser plugin's a
 = Why Doesn't my slider or (non native WP) gallery work in any tab except the first one? =
 
 Some carousel/slider/gallery plugins render their content with zero height & width if the tab containing the content is not visible on page load. If you need to place a slider in a tab, I would suggest trying Meteor Slides as it seems to work reliably in my tests. Native WordPress galleries also work with no problems.
+
+= How can I get rid of unmatched opening or closing paragraph tags in the tabs making my markup invalid? =
+
+This is caused by WordPress's wpautop filter which is applied to your post/page content. To prevent stray paragraph tags appearing, ensure that you leave a blank line before and after each shortcode.
 
 = Why Doesn't my Google Map work in any tab except the first one? =
 
