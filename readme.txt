@@ -36,6 +36,7 @@ Add a `[tabbyending]` shortcode after the content of the last tab in a tabgroup.
 
 = Example =
 `
+
 [tabby title="First Tab"]
 
 Tabby ipsum dolor sit amet, kitty sunbathe dolor, feed me.
@@ -49,6 +50,7 @@ Lay down in your way catnip stuck in a tree, sunbathe kittens.
 sleep in the sink climb the curtains attack, give me fish.
 
 [tabbyending]
+
 `
 
 *note: To prevent stray paragraph tags being introduced by WordPress's wpautop filter, ensure that you leave a blank line above and below each tabby shortcode and the tabbyending.*
