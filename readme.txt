@@ -20,9 +20,7 @@ Create responsive tabs inside your posts, pages or custom post content by adding
 
 The Tabby Responsive Tabs plugin is designed to be an easy and lightweight way to add responsive tabs to your content. There is no admin panel and experienced developers should be able to easily customise how the tabs display on their site by replacing the built-in CSS rules with a customised version (see note below for more details of this).
 
-> # Optional Add-ons #
 > For the easiest way to customise the display of your tabs without editing any code, you can now use the [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") add-on from cubecolour. This adds a settings panel with several parameters for customising your tabs. You can use the default tabby styles or one of the included one-click style presets as a starting point for customisation. The add-on also enables you to easily add icons to your tab titles.
->
 > The [Tabby Link to Tab plugin](http://cubecolour.co.uk/downloads/tabby-link-to-tab/ "Tabby Link to Tab plugin") provides a simple shortcode to create links to specific tabs which can appear anywhere on the same page as the tabgroup without the page needing to reload.
 
 = Usage: =
