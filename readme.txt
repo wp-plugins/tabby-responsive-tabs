@@ -20,7 +20,9 @@ Create responsive tabs inside your posts, pages or custom post content by adding
 
 The Tabby Responsive Tabs plugin is designed to be an easy and lightweight way to add responsive tabs to your content. There is no admin panel and experienced developers should be able to easily customise how the tabs display on their site by replacing the built-in CSS rules with a customised version (see note below for more details of this).
 
+> ## Optional Add-ons ##
 > For the easiest way to customise the display of your tabs without editing any code, you can now use the [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") add-on from cubecolour. This adds a settings panel with several parameters for customising your tabs. You can use the default tabby styles or one of the included one-click style presets as a starting point for customisation. The add-on also enables you to easily add icons to your tab titles.
+> The [Tabby Link to Tab plugin](http://cubecolour.co.uk/downloads/tabby-link-to-tab/ "Tabby Link to Tab plugin") provides a simple shortcode to create links to specific tabs which can appear anywhere on the same page as the tabgroup without the page needing to reload.
 
 = Usage: =
 
@@ -206,9 +208,13 @@ eg:
 yoursite.com/?page_id=1&target=phone-numbers
 `
 
+= How can I use the Target Parameter on a link on the same page as the tabgroup without the page reloading? =
+
+This is not possible with the target parameter, however this can be achieved by using the optional [Tabby Link to Tab plugin](http://cubecolour.co.uk/downloads/tabby-link-to-tab/ "Tabby Link to Tab plugin")
+
 = How will the tabs print? =
 
-Starting with version 1.2, basic print styles are included in a print media query at the end of the plugin stylesheet. This is designed to print the tab titles and content in series. If you are using custom styles for your tabs, you can copy these print styles to the end of your custom styles and customise them.
+Basic print styles are included in a print media query at the end of the plugin stylesheet (from version 1.2). This is designed to print the tab titles and content in series. If you are using custom styles for your tabs, you can copy these print styles to the end of your custom styles and customise them.
 
 = Are there any other free cubecolour plugins? =
 
@@ -216,7 +222,7 @@ If you like Tabby Responsive Tabs, you may like some of my other plugins in the 
 
 = Who or what is cubecolour? =
 
-My name is Michael Atkins. Cubecolour is the name of my web design and development business in South London where I work with businesses, organisations and individuals to build and support their websites using WordPress. I like to attend local WordCamps and WordPress meetups and I am a moderator on the WordPress.org forums. When I'm not sitting in front of my MacBook I can usually be found playing bass or ukulele.
+My name is Michael Atkins. Cubecolour is the name of my web design and development business in South London where I work with businesses, organisations and individuals to build and support their websites using WordPress. I enjoy attending local WordCamps and WordPress meetups. I have used WordPress since 2007 and I am a moderator on the WordPress.org forums. When I'm not sitting in front of my MacBook I can usually be found playing bass or ukulele.
 
 = Why do you spell the word 'color' incorrectly? =
 
@@ -239,6 +245,13 @@ The free Tabby Responsive Tabs plugin was designed as a lightweight plugin for W
 = How much does the Tabby Responsive Tabs Customiser plugin cost? =
 
 The [Tabby Responsive Tabs Customiser plugin](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser plugin") costs 15GBP.
+
+= What is the Tabby Link to Tab plugin? =
+
+Tabby Link to tab is an optional add-on for Tabby Responsive Tabs which provides a simple shortcode to create links to specific tabs which can appear anywhere on the same page as the tabgroup. When this is used, the tab becomes active without the page reloading. This add-on is not required in most cases but can be useful if you want to include links to specific tabs within the tab content or in a different area of the page.
+
+For more details please see: [Tabby Link to Tab plugin](http://cubecolour.co.uk/downloads/tabby-link-to-tab/ "Tabby Link to Tab plugin"). This add-on was developed after several users requested the functionality. This optional add-on plugin costs 15GBP.
+
 
 == Other Notes ==
 
