@@ -127,6 +127,10 @@ If changing the theme makes no difference, deactivate all plugins except Tabby R
 = How can I get rid of extra paragraph tags at the beginning or end of the tab content? =
 These can be added by the wpautop function. It is recommended to leave a blank line before and after each tabby shortcode to prevent these from appearing.
 
+= What levels of support are available? =
+You can receive free support for the plugin if you have problems getting it working. To access this please open a new topic on the [plugin support forum](http://wordpress.org/support/plugin/tabby-responsive-tabs/ "Tabby Responsive Tabs plugin support forum") all communication must take place on the forum for free support
+
+If you require a greater level of support than can be provided on the plugin support forum on WordPress.org - eg you prefer not to post the url or you require CSS support to fit specific requirements for your site, you can request non-free support via the [paid email support form for cubecolour plugins](http://cubecolour.co.uk/premium-support/ "paid email support form for cubecolour plugins") form.
 
 = Pasted-in shortcodes aren't working =
 If you are copying & pasting the example shortcodes into the visual editor and the shortcodes don't seem to be working, try the text editor in preference to be sure that you aren't adding in any extra markup that isn't visible in the visual mode (this applies to any plugin using shortcodes).
