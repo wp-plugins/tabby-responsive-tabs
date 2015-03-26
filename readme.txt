@@ -181,6 +181,15 @@ Some google maps plugins render their content with zero height & width if the ta
 
 Yes you can have as many sets of tabs as you like.
 
+= Can I add tabs to my sidebar? =
+
+Yes, but you need to add shortcode support to text widgets. This can be achieved by adding the filter below to your child theme's functions.php or a custom functionality plugin.
+`
+add_filter('widget_text', 'do_shortcode');
+`
+This will enable you to use any shortcodes in a text widget.
+
+
 = Can I nest a Tag Group within an existing tab? =
 
 No, this is not supported.
