@@ -1,7 +1,7 @@
 === Tabby Responsive Tabs ===
 Contributors: numeeja
 Donate link: http://cubecolour.co.uk/wp
-Tags: tabs, jquery tabs, responsive tabs, tabs shortcode, responsive, shortcode, tab
+Tags: tab, tabs, jquery, responsive shortcode
 Requires at least: 3.7
 Tested up to: 4.2
 Stable tag: 1.2.1
@@ -84,7 +84,9 @@ If you use the 'open' shortcode parameter in one of your tab shortcodes, ensure 
 
 The markup required to show an icon alongside a tab title can be added by using the **'icon'** attribute. Tabby responsive tabs does not add the icons files, you will also need to use a theme or plugin (such as the tabby responsive tabs customiser add-on) to add the icon files:
 `
+
 [tabby title="My Tab" icon="cog"]
+
 `
 This adds a pseudo element before the tab table with the classes "fa" and "fa-cog". Other icon font sets can be used if you ensure the CSS rules target the classes added by the plugin.
 
@@ -96,7 +98,9 @@ You can use a 'target' URL parameter to set which tab will be open when the page
 
 If you want to link to a 'contacts' page with a tab titled 'Phone Numbers' open, the url you use to link to this page would look like:
 `
+
 yoursite.com/contact/?target=phone-numbers
+
 `
 If you want a tab with the title 'email addresses' to be open, the url would look like:
 `
@@ -106,7 +110,7 @@ yoursite.com/contact/?target=email-addresses
 == Installation ==
 
 1. Upload the Tabby Responsive Tabs plugin folder to your '/wp-content/plugins/' directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
+2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
 
@@ -115,7 +119,7 @@ yoursite.com/contact/?target=email-addresses
 There are a few things you can investigate when troubleshooting any plugin which is not working as expected:
 
 **Incorrectly formed shortcodes**
-If you copied &amp; pasted in the Tabby Responsive Tabs shortcodes from a web page showing an example usage rather than directly typing them into the page, it is possible that there may be invisible or invalid characters in the shortcode text. Correct this by deleting the shortcodes and type them directly instead.
+If you copied &amp; pasted in the Tabby Responsive Tabs shortcodes from a web page showing an example usage rather than directly typing them into the page, it is possible that there may be invisible or invalid characters in the shortcode text, or the shortcodes are enclosed within code tags. Correct this by deleting the shortcodes and type them directly instead.
 
 **Plugin or theme conflicts**
 To troubleshoot whether you have a plugin or theme conflicting with the Tabby Responsive Tabs plugin, switch to a default theme such as Twenty-Thirteen. If the plugin starts working correctly at that point, you know that the theme needs to be investigated.
