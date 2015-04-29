@@ -38,7 +38,8 @@ Add the tab content after the shortcode.
 Add a `[tabbyending]` shortcode after the content of the last tab in a tabgroup.
 
 = Example =
-*If you copy & paste this example into your own page instead of typing them, ensure you do not carry across any stray code or pre tags that are used for formatting on this page..*
+*If you copy & paste this example into your own page instead of typing them, ensure that any stray &lt;code&gt; or &lt;pre&gt; tags are deleted.*
+
 `
 
 
