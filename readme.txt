@@ -137,8 +137,8 @@ If you require a greater level of support than can be provided on the plugin sup
 These can be added by the wpautop function. It is recommended to leave a blank line before and after each tabby shortcode to prevent these from appearing.
 
 
-= Pasted-in shortcodes aren't working =
-If you are copying & pasting the example shortcodes into the visual editor and the shortcodes don't seem to be working, try the text editor in preference to be sure that you aren't adding in any extra markup that isn't visible in the visual mode (this applies to any plugin using shortcodes).
+= Pasted-in shortcodes aren't working or the tabs have a 'stepped' appearance =
+If you are copying & pasting the example shortcodes into the visual editor and the shortcodes don't seem to be working or the tabs appear in a stepped configuration, look at the page in the text editor to be sure that you aren't adding in any extra markup that isn't visible in the visual editor. Delete any opening and closing <pre> or/or <code> tags pairs surrounding the tab shortcodes. (this can apply to any plugin using shortcodes).
 
 = Where is the plugin's admin page? =
 
@@ -179,7 +179,7 @@ This is caused by WordPress's wpautop filter which is applied to your post/page 
 
 = Why Doesn't my Google Map work in any tab except the first one? =
 
-Some google maps plugins render their content with zero height & width if the tab containing the content is not visible on page load. I would welcome any suggestions might help with this.
+Some google maps plugins render their content with zero height & width if the tab containing the content is not visible on page load. I have been able to show maps within tabs using the [WP Flexible Map](https://wordpress.org/plugins/wp-flexible-map/ "WP Flexible Map") plugin.
 
 = Can I display multiple tab groups on a single page? =
 
