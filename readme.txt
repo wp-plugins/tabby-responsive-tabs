@@ -38,7 +38,10 @@ Add the tab content after the shortcode.
 Add a `[tabbyending]` shortcode after the content of the last tab in a tabgroup.
 
 = Example =
+*If you copy & paste this example into your own page, ensure you do not carry across any stray <code> or <pre> tags that are used for formatting on this page. It would be best to type the shortcodes manually.*
 `
+
+
 
 [tabby title="First Tab"]
 
@@ -53,6 +56,8 @@ Lay down in your way catnip stuck in a tree, sunbathe kittens.
 sleep in the sink climb the curtains attack, give me fish.
 
 [tabbyending]
+
+
 
 `
 
