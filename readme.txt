@@ -4,7 +4,7 @@ Donate link: http://cubecolour.co.uk/wp
 Tags: tab, tabs, jquery, responsive, shortcode
 Requires at least: 3.7
 Tested up to: 4.3
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 License: GPLv2 / MIT
 
 Create responsive tabs inside your posts, pages or custom post content by adding simple shortcodes inside the post editor.
@@ -270,15 +270,15 @@ No, Tabby Responsive Tabs works great on its own and customising how the tabs di
 
 The free Tabby Responsive Tabs plugin was designed as a lightweight plugin for WordPress developers to add responsive tabs to their WordPress site. The functionality provided by the optional add-on customiser plugin was never intended to be included as part of Tabby Responsive Tabs and is designed to be particularly useful for non-coders.
 
-= How much does the Tabby Responsive Tabs Customiser plugin cost? =
-
-The [Tabby Responsive Tabs Customiser plugin](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser plugin") costs 15GBP.
-
 = What is the Tabby Link to Tab plugin? =
 
 Tabby Link to tab is an optional add-on for Tabby Responsive Tabs which provides a simple shortcode to create links to specific tabs which can appear anywhere on the same page as the tabgroup. When this is used, the tab becomes active without the page reloading. This add-on is not required in most cases but can be useful if you want to include links to specific tabs within the tab content or in a different area of the page.
 
-For more details please see: [Tabby Link to Tab plugin](http://cubecolour.co.uk/downloads/tabby-link-to-tab/ "Tabby Link to Tab plugin"). This add-on was developed after several users requested the functionality. This optional add-on plugin costs 15GBP.
+For more details please see: [Tabby Link to Tab plugin](http://cubecolour.co.uk/downloads/tabby-link-to-tab/ "Tabby Link to Tab plugin"). This add-on was developed after several users requested the functionality.
+
+= How much do the Tabby Responsive Tabs Customiser & Tabby Link to Tab add-ons cost? =
+
+These cost 19GBP each for use on a single site. A developer option for each is also available or 99GBP which can be used on all the sites you own or control.
 
 
 == Other Notes ==
@@ -292,6 +292,10 @@ The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 
 3. The basic print styles are intended to present the tab titles & content appropriately when printed out.
 
 == Changelog ==
+
+= 1.2.2 =
+
+* Extracted print stylesheet into separate file
 
 = 1.2.1 =
 
