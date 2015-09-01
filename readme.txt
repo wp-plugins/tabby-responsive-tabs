@@ -1,7 +1,7 @@
 === Tabby Responsive Tabs ===
 Contributors: numeeja
 Donate link: http://cubecolour.co.uk/wp
-Tags: tab, tabs, jquery, responsive, shortcode
+Tags: tabs, tab, responsive, accordion, shortcode
 Requires at least: 3.7
 Tested up to: 4.3
 Stable tag: 1.2.2
@@ -280,7 +280,6 @@ For more details please see: [Tabby Link to Tab plugin](http://cubecolour.co.uk/
 
 These cost 19GBP each for use on a single site. A developer option for each is also available or 99GBP which can be used on all the sites you own or control.
 
-
 == Other Notes ==
 
 The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 "GNU GPLv2"), however as the original responsive tabs script was [hosted at codepen as a public pen](http://blog.codepen.io/legal/licensing/ "hosted at codepen as a public pen"), the GPL compatible [MIT license](http://opensource.org/licenses/MIT "MIT license") applies to that component.
@@ -295,7 +294,7 @@ The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 
 
 = 1.2.2 =
 
-* Extracted print stylesheet into separate file
+* Included print stylesheet as a separate file
 
 = 1.2.1 =
 
@@ -335,6 +334,14 @@ The plugin is licenced under [GNU GPLv2](http://opensource.org/licenses/GPL-2.0 
 * Initial Version
 
 == Upgrade Notice ==
+
+= 1.2.2 =
+
+* Included print stylesheet as a separate file
+
+= 1.2.1 =
+
+* Added index.php to prevent the content of plugin directories being viewed if the site has not had directory browsing disallowed.
 
 = 1.2.0 =
 
