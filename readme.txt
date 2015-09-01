@@ -42,8 +42,6 @@ Add a `[tabbyending]` shortcode after the content of the last tab in a tabgroup.
 
 `
 
-
-
 [tabby title="First Tab"]
 
 Tabby ipsum dolor sit amet, kitty sunbathe dolor, feed me.
@@ -57,8 +55,6 @@ Lay down in your way catnip stuck in a tree, sunbathe kittens.
 sleep in the sink climb the curtains attack, give me fish.
 
 [tabbyending]
-
-
 
 `
 
@@ -96,7 +92,7 @@ The markup required to show an icon alongside a tab title can be added by using 
 [tabby title="My Tab" icon="cog"]
 
 `
-This adds a pseudo element before the tab table with the classes "fa" and "fa-cog". Other icon font sets can be used if you ensure the CSS rules target the classes added by the plugin.
+This adds a pseudo element before the tab title with the classes "fa" and "fa-cog". Other icon font sets can be used if you ensure the CSS rules target the classes added by the plugin.
 
 The [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") plugin can be used to add the Font Awesome files required to display the icons in the tab titles.
 
@@ -141,8 +137,8 @@ You can receive free support for the plugin if you have problems getting it work
 
 If you require a greater level of support than can be provided on the plugin support forum on WordPress.org - eg you prefer not to post the url or you require CSS support to fit specific requirements for your site, you can request non-free support via the [paid email support form for cubecolour plugins](http://cubecolour.co.uk/premium-support/ "paid email support form for cubecolour plugins") form.
 
-= How can I get rid of extra paragraph tags at the beginning or end of the tab content? =
-These can be added by the wpautop function. It is recommended to leave a blank line before and after each tabby shortcode to prevent these from appearing.
+= How can I remove extra paragraph tags which appear at the beginning or end of the tab content? =
+These extra tags are often be added by WordPress's wpautop function. It is recommended to leave a blank line before and after each tabby shortcode to prevent these from appearing.
 
 
 = Pasted-in shortcodes aren't working or the tabs have a 'stepped' appearance =
@@ -150,15 +146,15 @@ If you are copying & pasting the example shortcodes into the visual editor and t
 
 = Where is the plugin's admin page? =
 
-There isn't one. This is a lightweight plugin with no options. If you want to be able to configure your tabs using an admin page, the [Tabby Responsive Tabs Customiser plugin](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser plugin") is available.
+There isn't one. This is a lightweight plugin with no options. If you want to be able to customise your tabs using an admin page, the [Tabby Responsive Tabs Customiser plugin](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser plugin") is available.
 
-= Does it work with responsive Themes? =
+= Does this plugin work with responsive Themes? =
 
 Yes - it should work with any well-coded responsive theme.
 
 = Does it work with non-responsive Themes? =
 
-The plugin should also work with non-responsive Themes, however this is not really recommended; if you are using a non-responsive theme the tabs will not switch to an accordion display on a mobile device.
+The plugin should also work with non-responsive Themes, however this is not really recommended; if you are using a non-responsive theme the tabs may not switch to an accordion display on a mobile device.
 
 = Does it work with a multisite installation of WordPress? =
 
@@ -173,7 +169,7 @@ If you prefer to use a settings page in your WordPress admin to set a custom tab
 
 = Can I change the responsive breakpoint from the default 767px? =
 
-Yes, you'll find where that is set in the CSS. Refer to the answer above about using custom css.
+Yes, you can see where that is set in the plugin's CSS. Refer to the answer above about using custom css to use a custom value.
 
 This value can also be set using the Tabby Responsive Tabs Customiser plugin's admin panel.
 
@@ -250,7 +246,7 @@ If you like Tabby Responsive Tabs, you may like some of my other plugins in the 
 
 = Who or what is cubecolour? =
 
-My name is Michael Atkins. Cubecolour is the name of my web design and development business in South London where I work with businesses, organisations and individuals to build and support their websites using WordPress. I enjoy attending local WordCamps and WordPress meetups. I have used WordPress since 2007 and I am a moderator on the WordPress.org forums. When I'm not sitting in front of my MacBook I can usually be found playing bass or ukulele.
+My name is Michael Atkins. Cubecolour is the name of my web design and development business in South London where I work with businesses, organisations and individuals to build and support their websites using WordPress. I enjoy attending local WordCamps and WordPress meetups. I have used WordPress since 2007 and I am a moderator on the WordPress.org support forums. When I'm not sitting in front of my MacBook I can usually be found playing bass or ukulele.
 
 = Why do you spell the word 'color' incorrectly? =
 
