@@ -3,7 +3,7 @@ Contributors: numeeja
 Donate link: http://cubecolour.co.uk/wp
 Tags: tabs, tab, responsive, accordion, shortcode
 Requires at least: 3.7
-Tested up to: 4.3
+Tested up to: 4.4
 Stable tag: 1.2.2
 License: GPLv2 / MIT
 
@@ -24,6 +24,10 @@ The Tabby Responsive Tabs plugin is designed to be an easy and lightweight way t
 > The [Tabby Responsive Tabs Customiser](http://cubecolour.co.uk/tabby-responsive-tabs-customiser/ "Tabby Responsive Tabs Customiser") add-on adds a settings panel with several parameters for customising your tabs. to provide the easiest way to customise the display of your tabs without editing any code. You can use the default tabby styles or one of the included one-click presets as a starting point for customisation. It also enables you to easily add icons to your tab titles.
 
 > The [Tabby Link to Tab](http://cubecolour.co.uk/downloads/tabby-link-to-tab/ "Tabby Link to Tab") add-on provides a simple shortcode to create links to specific tabs which can appear anywhere on the same page as the tabgroup without the page needing to reload.
+
+> The [Tabby Tab to URL Link](http://cubecolour.co.uk/downloads/tabby-tab-to-url-link/ "Tabby Tab to URL Link") add-on enables you to set one or more of your tabs to act as a link to any URL.
+
+> The [Tabby Load Accordion Closed](http://cubecolour.co.uk/downloads/tabby-load-accordion-closed/ "Tabby Load Accordion Closed") add-on changes the default behaviour for the accordion display so no accordion sections are open when the page initially loads.
 
 = Usage: =
 
