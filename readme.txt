@@ -27,8 +27,7 @@ The Tabby Responsive Tabs plugin is designed to be an easy and lightweight way t
 
 > The [Tabby Tab to URL Link](http://cubecolour.co.uk/downloads/tabby-tab-to-url-link/ "Tabby Tab to URL Link") add-on enables you to set one or more of your tabs to act as a link to any URL.
 
-> The [Tabby Load Accordion Closed](http://cubecolour.co.uk/downloads/tabby-load-accordion-closed/ "Tabby Load Accordion Closed") add-on changes the default behaviour for the accordion display so no accordion sections are open when the page initially loads.
-
+> The [Tabby Load Accordion Closed](http://cubecolour.co.uk/downloads/tabby-load-accordion-closed/ "Tabby Load Accordion Closed") add-on changes the default behaviour when the tabs are displayed as an accordion so no accordion sections are open when the page initially loads.
 = Usage: =
 
 There are two shortcodes which should both be used `[tabby]` and `[tabbyending]`
